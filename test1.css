@@ -41,7 +41,7 @@
 }
 
 .bk-title .ng-binding {
-  color: red; 
+  color: red !important; 
 }
 
 /* app background*/
