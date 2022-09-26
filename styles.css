@@ -56,11 +56,9 @@
   background-color: var(--grey-p8-color) !important;
 }
 
-/* Button
-bk/rd-button-primary/secondary :  v1
-button-module__primary/secondary: v2
-bk-axis-sort-icon : pinboard up/down arrow
-*/
+.rd-button-primary/secondary {
+  color: #5234ED;
+}
 
 .rd-button-primary,
 .bk-button-primary,
