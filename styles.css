@@ -40,6 +40,10 @@
   font-family: "Dancing Script" !important;
 }
 
+.bk-title .ng-binding {
+  color: red; 
+}
+
 /* app background*/
 
 .bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header
