@@ -26,7 +26,7 @@
 }
 
 .bk-title ng-binding {
-  color: red; 
+  color: red !important;
 }
 
 /* Font-family */
