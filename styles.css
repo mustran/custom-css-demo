@@ -25,10 +25,6 @@
   --dodger-blue: #1792e5;
 }
 
-.bk-title ng-binding {
-  color: red !important;
-}
-
 /* Font-family */
 
 @font-face {
