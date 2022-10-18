@@ -27,6 +27,7 @@
   --background-light-hover: #f2f4f7;
   --primary-border-purple-300: #A696F6;
   --primary-main-purple-500: #5234ED;
+  --primary-surface: #F4F2FE;
 }
 
 /* Font-family */
@@ -332,12 +333,10 @@ chip-base-module: answer v2
  */
 
 .rd-chip.rd-chip-style-filter {
-  background: var(--grey-p9-color) !important;
+  color: var(--primary-main-purple-500) !important;
+  background: var(--primary-surface) !important;
+  border: 1px solid #D0D5DD !important;
   padding: 0 10px !important; /* pinboard dropdown padding */ 
-}
-
-.rd-chip.rd-chip-style-filter:hover {
-  border: none !important;
 }
 
 /*  search field
