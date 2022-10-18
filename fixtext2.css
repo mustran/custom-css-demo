@@ -662,7 +662,7 @@ input:placeholder-shown {
   font-size: 16px !important;
   font-style: normal !important;
   line-height: 24px !important;
-  color: var(--primary-main-purple-500) !important;
+  color: var(--grey-n5-color) !important;
   font-weight: 800 !important;
 }
 
