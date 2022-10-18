@@ -824,3 +824,7 @@ rd-tab-header-item for data tab
 .bk-embedded-menu {
   display: flex;
 }
+
+.bk-edit-button {
+  margin-left: 0.5em;
+}
