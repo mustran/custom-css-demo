@@ -118,7 +118,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .bk-axis-sort-icon {
   background: var(--grey-p9-color) !important;
   color: var(--primary-main-purple-500) !important;
-  border: 1px solid var(--grey-p7-color) !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
   box-sizing: border-box !important;
   box-shadow: 1px 1px 1px var(--black-shadow-color) !important;
   border-radius: 4px !important;
@@ -301,7 +301,7 @@ chip-base-module: answer v2
 
 .bk-action-menu,
 .select-module__popoverWrapper > .menu-module__actionMenu {
-  background: var(--grey-p7-color) !important;
+  background: var(--primary-border-purple-300) !important;
   padding-bottom: 0 !important;
   padding-top: 0 !important;
 }
@@ -310,7 +310,7 @@ chip-base-module: answer v2
   > [data-radiant-v2].input-base-module__container {
   border: none !important;
   padding-left: 14px;
-  background: var(--grey-p7-color) !important;
+  background: var(--primary-border-purple-300) !important;
   border-radius: 0 !important;
   border-bottom: 2px solid var(--grey-p6-color) !important;
 }
@@ -349,7 +349,7 @@ input-base-module: v2
 
 [data-radiant-v2] .input-base-module__container,
 .bk-input-container-inner {
-  background: var(--grey-p7-color) !important;
+  background: var(--primary-border-purple-300) !important;
   box-shadow: inset 1px 1px 1px var(--black-shadow-color) !important;
   border-radius: 4px !important;
   border: 1px solid transparent !important;
