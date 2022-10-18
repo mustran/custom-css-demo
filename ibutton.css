@@ -812,6 +812,7 @@ rd-tab-header-item for data tab
   padding-top: 16px !important;
 }
 
-.bk-embed-powered-by-ts-ribbon .ng-scope .ng-isolate-scope {
+/* i icon on liveboard hover */
+.button-module__buttonWrapper {
   display: none !important;
 }
