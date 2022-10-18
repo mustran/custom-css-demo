@@ -323,12 +323,11 @@ chip-base-module: answer v2
 .bk-dropdown-item-container :hover,
 .menu-module__itemInfo:hover {
   background: var(--light-hover-gray-100) !important;
-  color: var(--on-background-light-main-grey-900) !important;
 }
 
 .bk-dropdown-item-info:hover > .bk-dropdown-text,
 .menu-module__itemInfo:hover > .menu-module__itemText > p {
-  color: var(--primary-main-purple-500) !important;
+  color: var(--on-background-light-main-grey-900) !important;
 }
 
 /* filter chips pinboard v1 
