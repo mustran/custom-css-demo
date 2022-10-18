@@ -29,6 +29,7 @@
   --primary-main-purple-500: #5234ED;
   --primary-surface: #F4F2FE;
   --light-hover-gray-100: #F2F4F7;
+  --on-background-light-helper-grey-600: #475467;
   --on-background-light-main-grey-900: #101828;
 }
 
@@ -389,7 +390,7 @@ input:placeholder-shown {
 }
 
 .rd-icon-color-gray {
-  fill: var(--primary-main-purple-500) !important;
+  fill: var(--on-background-light-helper-grey-600) !important;
 }
 
 /* table header
@@ -650,6 +651,10 @@ input:placeholder-shown {
 /* Filter icon padding is incorrect/ Dropdown outside padding w.r.t outer white container */
 .pinboard-filter-panel > .bk-filter-panel{
   padding: 8px 16px 10px 16px !important;  /* already 8px + 8px */
+}
+
+.bk-filter-panel > .bk-filter-icon svg {
+  fill: var(--on-background-light-helper-grey-600) !important;
 }
 
 /* pinboard dropdown top/bottom padding */
