@@ -126,7 +126,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .bk-secondary-button:hover,
 .button-module__secondary:hover,
 .bk-axis-sort-icon:hover {
-  background: var(--btn-gradients-light-hover-quiet-color) !important;
+  background: var(--background-light-hover) !important;
   color: var(--icon-light-blue-color) !important;
   border: 1px solid transparent !important;
 }
