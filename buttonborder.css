@@ -25,6 +25,7 @@
   --dodger-blue: #1792e5;
   --grey800: rgba(29, 41, 57, 0.10);
   --background-light-hover: #f2f4f7;
+  --primary-border-purple-300: #A696F6;
 }
 
 /* Font-family */
@@ -128,7 +129,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .bk-axis-sort-icon:hover {
   background: var(--background-light-hover) !important;
   color: var(--icon-light-blue-color) !important;
-  border: 1px solid transparent !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
 }
 
 .rd-secondary-button:active,
