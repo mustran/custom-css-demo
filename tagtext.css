@@ -258,6 +258,9 @@ chip-base-module: answer v2
   border-radius: 4px !important;
   background-color: var(--grey-p9-color) !important;
   font-size: 16px !important;
+}
+
+.rd-chip.rd-chip-style-filter span {
   color: var(--primary-main-purple-500) !important;
 }
 
