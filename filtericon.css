@@ -372,7 +372,7 @@ input:placeholder-shown {
   .input-base-module__container:hover
   [data-radiant-v2].icon-module__gray,
 .bk-input-container-inner:hover .rd-icon-color-gray {
-  fill: var(--light-secondary) !important;
+  fill: var(--primary-main-purple-500) !important;
 }
 
 [data-radiant-v2].icon-module__gray,
