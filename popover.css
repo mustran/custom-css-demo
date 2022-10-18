@@ -293,7 +293,7 @@ chip-base-module: answer v2
 
 .bk-action-menu,
 .select-module__popoverWrapper > .menu-module__actionMenu {
-  background: var(--primary-border-purple-300) !important;
+  background: white !important;
   padding-bottom: 0 !important;
   padding-top: 0 !important;
 }
