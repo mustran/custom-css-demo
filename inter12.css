@@ -34,9 +34,9 @@
   src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff')
 }
 
-*:not(.find-widget.visible div) {
+/* *:not(.find-widget.visible div) {
   font-family: "Dancing Script" !important;
-}
+} */
 
 /* app background*/
 
