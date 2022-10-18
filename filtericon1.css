@@ -380,6 +380,10 @@ input:placeholder-shown {
   fill: var(--primary-main-purple-500) !important;
 }
 
+.rd-icon-color-gray {
+  fill: var(--primary-main-purple-500) !important;
+}
+
 /* table header
   answerlist/pinboard list => v1
 */
