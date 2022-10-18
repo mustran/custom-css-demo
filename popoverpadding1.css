@@ -314,11 +314,11 @@ chip-base-module: answer v2
   padding: 0 !important;
 }
 
-.bk-dropdown-item-info,
+/* .bk-dropdown-item-info,
 .bk-dropdown-item-container,
 .menu-module__itemInfo {
   color: var(--on-background-light-main-grey-900) !important;
-}
+} */
 
 .bk-dropdown-item-info:hover,
 .bk-dropdown-item-container :hover,
