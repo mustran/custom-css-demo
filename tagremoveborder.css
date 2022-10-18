@@ -273,14 +273,14 @@ chip-base-module: answer v2
   border-bottom: none !important;
 }
 
-.bk-select-head:active,
+/* .bk-select-head:active,
 .bk-select-head:hover,
 .select-module__selectHead:hover,
 .select-module__selectHead:active,
 .rd-chip-wrapper:hover,
 .chip-base-module__filter:hover {
   border: 1px solid var(--grey-p1-color) !important;
-}
+} */
 
 /* select disabled */
 
