@@ -26,6 +26,7 @@
   --grey800: rgba(29, 41, 57, 0.10);
   --background-light-hover: #f2f4f7;
   --primary-border-purple-300: #A696F6;
+  --primary-main-purple-500: #5234ED;
 }
 
 /* Font-family */
@@ -128,7 +129,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .button-module__secondary:hover,
 .bk-axis-sort-icon:hover {
   background: var(--background-light-hover) !important;
-  color: var(--icon-light-blue-color) !important;
+  color: var(--primary-main-purple-500) !important;
   border: 1px solid var(--primary-border-purple-300) !important;
 }
 
@@ -155,7 +156,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 */
 
 .bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper {
-  border: 1px solid var(--icon-light-blue-color) !important;
+  border: 1px solid var(--primary-main-purple-500) !important;
   border-radius: 4px !important;
 }
 
@@ -174,7 +175,7 @@ bk-axis-sort-icon : pinboard up/down arrow
   .rd-button-wrapper
   .rd-button-secondary
   .rd-button-text {
-  color: var(--icon-light-blue-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 .modal-module__footer
@@ -186,7 +187,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 
 /* modal inside seconday button (border-color)  */
 .modal-module__footer .modal-module__actionBtn > .button-module__secondary {
-  border: 1px solid var(--icon-light-blue-color) !important;
+  border: 1px solid var(--primary-main-purple-500) !important;
 }
 
 /* cancel button height  */
@@ -225,7 +226,7 @@ button[aria-label="Don't save"] >p, button[aria-label="Don't save"]:hover >p {
   box-shadow: none  !important;
   border: none  !important;
   outline: none  !important;
-  color: var(--icon-light-blue-color)  !important;
+  color: var(--primary-main-purple-500)  !important;
   background: var(--grey-p9-color) !important;
   letter-spacing: 0.5px !important;
   font-weight: 700  !important;
@@ -326,7 +327,7 @@ chip-base-module: answer v2
 
 .bk-dropdown-item-info:hover > .bk-dropdown-text,
 .menu-module__itemInfo:hover > .menu-module__itemText > p {
-  color: var(--icon-light-blue-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 /* filter chips pinboard v1 
@@ -365,7 +366,7 @@ input-base-module: v2
 [data-radiant-v2] .input-base-module__container:hover,
 .bk-input-container-inner:hover {
   box-shadow: none !important;
-  border: 1px solid var(--icon-light-blue-color) !important;
+  border: 1px solid var(--primary-main-purple-500) !important;
 }
 
 /* remove blue bottom border */
@@ -716,7 +717,7 @@ input:placeholder-shown {
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
 .bk-dialog .bk-dialog-field input:active,
 .bk-range-select > .bk-range-select-row > input:active   {
-  border: 1px solid var(--icon-light-blue-color) !important; 
+  border: 1px solid var(--primary-main-purple-500) !important; 
   color:  var(--grey-n5-color) !important; 
   font-style: normal !important; 
 }
