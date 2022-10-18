@@ -117,7 +117,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .button-module__secondary,
 .bk-axis-sort-icon {
   background: var(--grey-p9-color) !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   border: 1px solid var(--grey-p7-color) !important;
   box-sizing: border-box !important;
   box-shadow: 1px 1px 1px var(--black-shadow-color) !important;
@@ -261,7 +261,7 @@ chip-base-module: answer v2
   border-radius: 4px !important;
   background-color: var(--grey-p9-color) !important;
   font: 16px !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 /*viz pinboard add filter chips */
@@ -387,7 +387,7 @@ input:placeholder-shown {
 
 [data-radiant-v2].icon-module__gray,
 .bk-input-container-inner .rd-icon-color-gray {
-  fill: var(--grey-n5-color) !important;
+  fill: var(--primary-main-purple-500) !important;
 }
 
 /* table header
@@ -434,7 +434,7 @@ input:placeholder-shown {
   line-height: 20px !important;
   background: var(--grey-p9-color) !important;
   font-weight: 800 !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   text-transform: uppercase !important;
   font-size: 12px !important;
 }
@@ -555,7 +555,7 @@ input:placeholder-shown {
   .slick-header-columns
   .slick-column-name {
   font-weight: 800 !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   font-size: 12px !important;
 }
 
@@ -581,7 +581,7 @@ input:placeholder-shown {
 .modal-module__header .modal-module__title,
 .modal-header {
   padding-top: 30px !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   font-size: 24px !important;
   background: var(--grey-p9-color) !important;
 }
@@ -626,7 +626,7 @@ input:placeholder-shown {
 
 /* pinboard select  */
 .select2-chosen {
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   font-size: 24px !important;
   font-weight: 900 !important;
   letter-spacing: 0px !important;
@@ -662,7 +662,7 @@ input:placeholder-shown {
   font-size: 16px !important;
   font-style: normal !important;
   line-height: 24px !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
   font-weight: 800 !important;
 }
 
@@ -688,7 +688,7 @@ input:placeholder-shown {
   font-weight: 800 !important;
   line-height: 24px !important;
   letter-spacing: 0px !important;
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input,
@@ -718,7 +718,7 @@ input:placeholder-shown {
 .bk-dialog .bk-dialog-field input:active,
 .bk-range-select > .bk-range-select-row > input:active   {
   border: 1px solid var(--primary-main-purple-500) !important; 
-  color:  var(--grey-n5-color) !important; 
+  color:  var(--primary-main-purple-500) !important; 
   font-style: normal !important; 
 }
 
@@ -739,7 +739,7 @@ rd-tab-header-item for data tab
 
 /* active tab text */
 .bk-category-.bk-selected > span, .rd-tab-header-item-selected > a >span {
- color: var(--grey-n5-color) !important;
+ color: var(--primary-main-purple-500) !important;
 }
 
 /* active tab bottom border */
