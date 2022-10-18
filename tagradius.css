@@ -266,21 +266,13 @@ chip-base-module: answer v2
 
 /*viz pinboard add filter chips */
 .rd-chip {
+  border-radius: 6px;
   background: var(--grey-p9-color) !important;
 }
 
 .bk-select-head::after {
   border-bottom: none !important;
 }
-
-/* .bk-select-head:active,
-.bk-select-head:hover,
-.select-module__selectHead:hover,
-.select-module__selectHead:active,
-.rd-chip-wrapper:hover,
-.chip-base-module__filter:hover {
-  border: 1px solid var(--grey-p1-color) !important;
-} */
 
 /* select disabled */
 
