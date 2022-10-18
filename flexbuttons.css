@@ -819,3 +819,8 @@ rd-tab-header-item for data tab
 .button-module__buttonWrapper {
   display: none !important;
 }
+
+/* share, schedule and 3dots buttons */
+.bk-embedded-menu {
+  display: flex;
+}
