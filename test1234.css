@@ -15,7 +15,7 @@
   --grey-p9-color: #ffffff;
   --grey-p3-color: #b0b0b0;
   --grey-n1-color: #707070;
-  --grey-n5-color: #5234ED;
+  --grey-n5-color: #303030;
   --very-light-grey-color: #f9f9f9;
   --icon-light-blue-color: #005eac;
   --light-sky-blue-color: rgba(136, 221, 255, 0.15);
@@ -32,16 +32,12 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  font-family: 'Inter var', sans-serif;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v22/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 *:not(.find-widget.visible div) {
   font-family: "Dancing Script" !important;
-}
-
-.bk-title .ng-binding {
-  color: red !important; 
 }
 
 /* app background*/
