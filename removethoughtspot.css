@@ -811,3 +811,7 @@ rd-tab-header-item for data tab
 .sharable-item-panel {
   padding-top: 16px !important;
 }
+
+.bk-ts-powered-footer-logo {
+  display: none;
+}
