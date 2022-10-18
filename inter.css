@@ -31,7 +31,7 @@
   font-family: inter;
   font-style: normal;
   font-weight: 500;
-  src: local('Inter'), url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff')
+  src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff')
 }
 
 *:not(.find-widget.visible div) {
