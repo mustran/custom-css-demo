@@ -812,6 +812,6 @@ rd-tab-header-item for data tab
   padding-top: 16px !important;
 }
 
-.bk-ts-powered-footer-logo {
-  display: none;
+.bk-embed-powered-by-ts-ribbon .ng-scope .ng-isolate-scope {
+  display: none !important;
 }
