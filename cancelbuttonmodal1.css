@@ -194,6 +194,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 
 /* cancel button height  */
 .modal-footer .bk-cancel-button .rd-button-wrapper .rd-button-secondary {
+  color: var(--primary-main-purple-500) !important;
   height: 29px !important;
 }
 
