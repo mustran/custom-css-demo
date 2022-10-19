@@ -167,7 +167,7 @@ bk-axis-sort-icon : pinboard up/down arrow
   .rd-button-wrapper
   .rd-button-secondary:hover
   > .rd-button-text {
-  color: var(--grey-p9-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 /* modal inside seconday button (text-color)  */
