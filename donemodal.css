@@ -224,6 +224,14 @@ bk-axis-sort-icon : pinboard up/down arrow
   color: var(--primary-main-purple-500) !important;
 }
 
+/* Done button on modal */
+.rd-button-background-light.rd-button-primary.rd-button-size-m,
+.rd-button-background-light.rd-button-primary.rd-button-size-s,
+.rd-button-background-light.rd-button-primary.rd-button-size-xs:not(.rd-button-with-text) {
+  background: var(--primary-main-purple-500) !important;
+  color: white;
+}
+
 /*fix.17 discard changes link */
 button[aria-label="Discard changes"], button[aria-label="Discard changes"]:hover,
 button[aria-label="Don't save"],
