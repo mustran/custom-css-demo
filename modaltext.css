@@ -602,7 +602,7 @@ input:placeholder-shown {
 .modal-module__header .modal-module__title,
 .modal-header {
   padding-top: 30px !important;
-  color: var(--primary-main-purple-500) !important;
+  color: var(--on-background-light-main-grey-900) !important;
   font-size: 24px !important;
   background: var(--grey-p9-color) !important;
 }
