@@ -314,11 +314,11 @@ chip-base-module: answer v2
   padding: 0 !important;
 }
 
-.bk-dropdown-item-info,
+/* .bk-dropdown-item-info,
 .bk-dropdown-item-container,
 .menu-module__itemInfo {
   color: var(--on-background-light-main-grey-900) !important;
-}
+} */
 
 .bk-dropdown-item-info:hover,
 .bk-dropdown-item-container :hover,
@@ -828,9 +828,9 @@ rd-tab-header-item for data tab
 }
 
 /* share, schedule and 3dots buttons */
-.bk-embedded-menu {
+/* .bk-embedded-menu {
   display: flex;
-}
+} */
 
 .bk-edit-button {
   margin-left: 0.5em;
