@@ -798,6 +798,10 @@ rd-tab-header-item for data tab
   background-color: var(--primary-main-purple-500)!important;
 }
 
+.rd-tab .rd-tab-header-item.rd-tab-header-item-selected .rd-tab-header-text {
+  background-color: var(--primary-main-purple-500)!important;
+}
+
 /* rangle select (add filter inside pinboard) */
 .bk-range-select .chosen-single > span  {
   padding-top: 6px !important;
