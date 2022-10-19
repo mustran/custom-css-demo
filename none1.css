@@ -731,7 +731,7 @@ input-base-module: v2
 .bk-range-select > .bk-range-select-row > input {
   background: none !important;
   border-radius: 4px !important;
-  border:  1px solid transparent !important; 
+  border:  1px solid var(--on-border-grey-300) !important; 
   color: var(--light-secondary) !important;
   font-size: 16px !important; 
   line-height: 24px !important;
