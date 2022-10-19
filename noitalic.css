@@ -401,10 +401,6 @@ input-base-module: v2
   border-bottom: 1px solid transparent !important;
 }
 
-input:placeholder-shown {
-  font-style: italic !important;
-}
-
 [data-radiant-v2]
   .input-base-module__container:hover
   [data-radiant-v2].icon-module__gray,
@@ -734,8 +730,7 @@ input:placeholder-shown {
   box-shadow: inset 1px 1px 1px var(--black-shadow-color) !important;
   border-radius: 4px !important;
   border:  1px solid transparent !important; 
-  color: var(--light-secondary) !important; 
-  font-style: italic !important; 
+  color: var(--light-secondary) !important;
   font-size: 16px !important; 
   line-height: 24px !important;
   min-height: 40px !important;
