@@ -897,7 +897,6 @@ rd-tab-header-item for data tab
 }
 
 /* modal wrapper */
-.bk-dialog-container .bk-dialog .modal-wrapper,
-.bk-dialog-container .bk-dialog .modal-header {
+.bk-dialog-container .bk-dialog {
   border-radius: 8px !important;
 }
