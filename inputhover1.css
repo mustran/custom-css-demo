@@ -392,9 +392,9 @@ input-base-module: v2
   border-bottom: 1px solid transparent !important;
 }
 
-input:placeholder-shown {
+/* input:placeholder-shown {
   font-style: italic !important;
-}
+} */
 
 [data-radiant-v2]
   .input-base-module__container:hover
