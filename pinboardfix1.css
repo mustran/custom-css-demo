@@ -836,6 +836,7 @@ rd-tab-header-item for data tab
   width: 100%;
   text-align: right;
   display: flex;
+  height: fit-content;
 }
 
 .bk-edit-button {
