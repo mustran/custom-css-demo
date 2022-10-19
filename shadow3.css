@@ -729,8 +729,7 @@ input-base-module: v2
  .bk-dialog-container textarea,
  .bk-dialog .bk-dialog-field input,
   .bk-range-select > .bk-range-select-row > input {
-  background: var(--grey-p6-color) !important; 
-  box-shadow: inset 1px 1px 1px var(--black-shadow-color) !important;
+  background: var(--grey-p6-color) !important;
   border-radius: 4px !important;
   border:  1px solid transparent !important; 
   color: var(--light-secondary) !important;
