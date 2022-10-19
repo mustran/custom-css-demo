@@ -30,6 +30,7 @@
   --primary-hover-purple-600: #3513DB;
   --primary-surface: #F4F2FE;
   --light-hover-gray-100: #F2F4F7;
+  --on-border-grey-300: #D0D5DD;
   --on-background-light-helper-grey-600: #475467;
   --on-background-light-main-grey-900: #101828;
 }
@@ -750,6 +751,13 @@ input:placeholder-shown {
 /* add pinboard dialog hide extra outline in text area*/
 .bk-dialog-field > textarea:focus-visible {
   outline: none  !important; 
+}
+
+/* inputs */
+.bk-range-select .bk-range-select-row .bk-value-selector {
+  border-radius: 6px !important;
+  border: 1px solid var(--on-border-grey-300) !important;
+  background: none;
 }
 
 /* Tab
