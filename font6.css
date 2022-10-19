@@ -43,6 +43,17 @@
   src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff') !important;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inter !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff') !important;
+}
+
 /* app background*/
 
 .bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header
