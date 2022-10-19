@@ -27,6 +27,7 @@
   --background-light-hover: #f2f4f7;
   --primary-border-purple-300: #A696F6;
   --primary-main-purple-500: #5234ED;
+  --primary-hover-purple-600: #3513DB;
   --primary-surface: #F4F2FE;
   --light-hover-gray-100: #F2F4F7;
   --on-background-light-helper-grey-600: #475467;
@@ -230,6 +231,12 @@ bk-axis-sort-icon : pinboard up/down arrow
 .rd-button-background-light.rd-button-primary.rd-button-size-xs:not(.rd-button-with-text) {
   background: var(--primary-main-purple-500) !important;
   color: white;
+}
+
+.rd-button-background-light.rd-button-primary.rd-button-size-m:hover,
+.rd-button-background-light.rd-button-primary.rd-button-size-s:hover,
+.rd-button-background-light.rd-button-primary.rd-button-size-xs:not(.rd-button-with-text):hover {
+  background: var(--primary-hover-purple-600) !important;
 }
 
 /*fix.17 discard changes link */
