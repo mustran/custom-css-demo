@@ -736,8 +736,8 @@ input:placeholder-shown {
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:hover, .bk-dialog-container textarea:hover,
 .bk-dialog .bk-dialog-field input:hover,
 .bk-range-select > .bk-range-select-row > input:hover   {
-  background: var(--grey-p5-color)  !important;
-  font-style: italic !important;  
+  background: none !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
@@ -788,7 +788,7 @@ rd-tab-header-item for data tab
 .bk-range-select > .bk-range-select-row > input {
   border-radius: 6px !important;
   border: 1px solid var(--on-border-grey-300) !important;
-  background: none;
+  background: none !important;
   margin-left: 5px !important;
 }
 
