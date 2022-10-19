@@ -842,3 +842,7 @@ rd-tab-header-item for data tab
 .bk-edit-button {
   margin-left: 0.5em;
 }
+
+#pinboardId>div>blink-sharable-item>div>div.bk-sharable-item-inner>div>div>div.bk-sharable-item-content-container.bk-layout-editable>div>div>div.ribbon-item.ng-scope>div>div.bk-pinboard-ribbon-switch>div.bk-pinboard-ribbon-default.ng-scope>div>bk-filter-panel>div>rd-icon>svg {
+  fill: red
+}
