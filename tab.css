@@ -795,7 +795,7 @@ rd-tab-header-item for data tab
 
 /* active tab bottom border */
 .top-list-filters .bk-filter-item .bk-top-menu-filters li.bk-selected::after, .rd-tab-header-item-selected > a::after {
-  background-color: var(--dodger-blue)!important;
+  background-color: var(--primary-main-purple-500)!important;
 }
 
 /* rangle select (add filter inside pinboard) */
