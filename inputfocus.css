@@ -26,6 +26,7 @@
   --grey800: rgba(29, 41, 57, 0.10);
   --background-light-hover: #f2f4f7;
   --primary-border-purple-300: #A696F6;
+  --on-shadow-focus: #C3B9F9;
   --primary-main-purple-500: #5234ED;
   --primary-hover-purple-600: #3513DB;
   --primary-surface: #F4F2FE;
@@ -34,6 +35,7 @@
   --on-background-light-placeholder-grey-400: #98A2B3;
   --on-background-light-helper-grey-600: #475467;
   --on-background-light-main-grey-900: #101828;
+  --on-form-focusborder: #5234edff;
 }
 
 /* Font-family */
@@ -736,6 +738,16 @@ input-base-module: v2
   line-height: 24px !important;
   min-height: 40px !important;
   padding: 8px 12px 8px 12px !important;
+  transition-property: background-color,
+  border-color,
+  color,
+  fill,
+  stroke,
+  opacity,
+  box-shadow,
+  transform;
+  ;
+  transition-duration: 200ms;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:hover, .bk-dialog-container textarea:hover,
@@ -743,6 +755,14 @@ input-base-module: v2
 .bk-range-select > .bk-range-select-row > input:hover   {
   background: none !important;
   border: 1px solid var(--primary-border-purple-300) !important;
+}
+
+.bk-dialog-container rd-icon:not(.bk-input-icon)+input:focus,
+.bk-dialog-container textarea:focus,
+.bk-dialog .bk-dialog-field input:focus,
+.bk-range-select>.bk-range-select-row>input:focus {
+  box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
+  border-color: var(--on-form-focusborder) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
