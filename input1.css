@@ -753,13 +753,6 @@ input:placeholder-shown {
   outline: none  !important; 
 }
 
-/* inputs */
-.bk-range-select .bk-range-select-row .bk-value-selector {
-  border-radius: 6px !important;
-  border: 1px solid var(--on-border-grey-300) !important;
-  background: none;
-}
-
 /* Tab
 .bk-category- for pinboard tab
 rd-tab-header-item for data tab
@@ -793,6 +786,9 @@ rd-tab-header-item for data tab
 
 /* pinboard add filter popup input */
 .bk-range-select > .bk-range-select-row > input {
+  border-radius: 6px !important;
+  border: 1px solid var(--on-border-grey-300) !important;
+  background: none;
   margin-left: 5px !important;
 }
 
