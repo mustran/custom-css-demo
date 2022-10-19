@@ -790,7 +790,7 @@ rd-tab-header-item for data tab
 
 /* active tab text */
 .bk-category-.bk-selected > span, .rd-tab-header-item-selected > a >span {
-  color: var(--grey-n5-color) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 /* active tab bottom border */
