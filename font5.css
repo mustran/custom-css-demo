@@ -36,12 +36,11 @@
 }
 
 /* Font-family */
-
-body, @font-face {
-  font-family: inter;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff')
+@font-face {
+  font-family: inter !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff') !important;
 }
 
 /* app background*/
