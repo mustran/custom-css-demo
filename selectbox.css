@@ -652,6 +652,7 @@ input-base-module: v2
   .ui-select-match
   .select2-chosen {
   height: 42px !important;
+  border-radius: 6px !important;
 }
 
 /* pinboard select  */
