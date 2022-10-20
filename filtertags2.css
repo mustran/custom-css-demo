@@ -39,8 +39,12 @@
   --on-background-light-active-grey-200:#E4E7EC;
   --fontWeights-medium: 500;
   --fontSizes-xs: 0.75rem;
+  --fontSizes-sm: 0.875rem;
+  --space-spaceXs: 0.25rem;
+  --space-spaceSm: 0.5rem;
   --space-space2: 0.125rem;
   --space-space6: 0.375rem;
+  --radii-md: 0.375rem;
 }
 
 /* Font-family */
@@ -936,29 +940,29 @@ rd-tab-header-item for data tab
 /* filter tags */
 
 .bk-suggestion-category-container .bk-suggestion-category-followup-container .rd-chip-text {
-  display: inline-flex;
-  vertical-align: top;
-  -webkit-box-align: center;
-  align-items: center;
-  max-width: 100%;
-  font-weight: var(--fontWeights-medium);
-  line-height: 1.2;
-  outline: transparent solid 2px;
-  outline-offset: 2px;
-  border-width: 1px;
-  border-color: var(--on-background-light-helper-grey-600);
-  min-height: 1.25rem;
-  min-width: 1.25rem;
-  font-size: var(--fontSizes-xs);
-  padding-inline-start: var(--space-space6);
-  padding-inline-end: var(--space-space6);
-  border-radius: 4px;
-  gap: var(--space-space6);
-  padding-top: var(--space-space2);
-  padding-bottom: var(--space-space2);
-  background: var(--on-background-light-active-grey-200);
-  color: var(--on-background-light-helper-grey-600);
-  flex-shrink: 0;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: inline-flex !important;
+  vertical-align: top !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  max-width: 100% !important;
+  font-weight: var(--fontWeights-medium) !important;
+  line-height: 1.2 !important;
+  outline: transparent solid 2px !important;
+  outline-offset: 2px !important;
+  border-width: 1px !important;
+  border-color: var(--on-border-grey-300) !important;
+  min-height: 1.5rem !important;
+  min-width: 1.5rem !important;
+  font-size: var(--fontSizes-sm) !important;
+  border-radius: var(--radii-md) !important;
+  padding-inline-start: var(--space-space2) !important;
+  padding-inline-end: var(--space-space2) !important;
+  padding-top: var(--space-spaceXs) !important;
+  padding-bottom: var(--space-spaceXs) !important;
+  gap: var(--space-spaceSm) !important;
+  background: var(--on-background-light-active-grey-200) !important;
+  color: var(--on-background-light-helper-grey-600) !important;
+  flex-shrink: 0 !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
