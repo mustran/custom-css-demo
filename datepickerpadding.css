@@ -981,5 +981,6 @@ rd-tab-header-item for data tab
 }
 
 .table-condensed thead > tr > th {
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
 }
