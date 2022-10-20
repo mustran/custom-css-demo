@@ -787,7 +787,7 @@ input-base-module: v2
 [data-radiant-v2] .input-base-module__container:active,
 .bk-input-container-inner:active {
   border: 1px solid var(--primary-main-purple-500) !important; 
-  box-shadow: 0px 0px 0px 3px #C3B9F9;
+  box-shadow: 0px 0px 0px 3px #C3B9F9 !important;
   color: var(--on-background-light-placeholder-grey-400) !important;
   font-style: normal !important; 
 }
