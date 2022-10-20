@@ -997,7 +997,11 @@ rd-tab-header-item for data tab
 }
 
 /* calendar day */
+.datepicker table tr td.day {
+  color: var(--on-background-light-helper-grey-600) !important;
+}
+
 .datepicker table tr td.day:hover {
-  background-color: var(--background-light-hover);
+  background-color: var(--background-light-hover) !important;
   color: var(--on-background-light-main-grey-900) !important;
 }
