@@ -777,7 +777,10 @@ input-base-module: v2
 .bk-range-select>.bk-range-select-row>input:focus, 
 [data-radiant-v2] .input-base-module__container:focus,
 .bk-input-container-inner:focus,
-.container .bk-input .bk-input-field:focus {
+
+.bk-input-container .bk-input .bk-input-field:active,
+.bk-input-container .bk-input .bk-input-field:focus,
+.bk-input-container .bk-input .bk-input-field:focus:required:invalid:focus {
   box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
   border-color: var(--on-form-focusborder) !important;
 }
