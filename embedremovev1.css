@@ -1009,3 +1009,7 @@ rd-tab-header-item for data tab
   background: var(--primary-hover-purple-600) !important;
   color: white !important;
 }
+
+.bk-embed .bk-embed-powered-by-ts-ribbon{
+  display: none !important;
+}
