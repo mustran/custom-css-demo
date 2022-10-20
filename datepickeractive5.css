@@ -997,7 +997,7 @@ td.active:hover {
 }
 
 /* calendar day */
-td.day:hover {
+.datepicker table tr td.day:hover {
   background-color: var(--background-light-hover);
   color: var(--on-background-light-main-grey-900) !important;
 }
