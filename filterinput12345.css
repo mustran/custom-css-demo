@@ -776,7 +776,8 @@ input-base-module: v2
 .bk-dialog .bk-dialog-field input:focus,
 .bk-range-select>.bk-range-select-row>input:focus, 
 [data-radiant-v2] .input-base-module__container:focus,
-.bk-input-container-inner:focus {
+.bk-input-container-inner:focus,
+.container .bk-input .bk-input-field:focus {
   box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
   border-color: var(--on-form-focusborder) !important;
 }
