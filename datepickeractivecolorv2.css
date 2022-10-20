@@ -985,17 +985,6 @@ rd-tab-header-item for data tab
   padding-top: 10px !important;
 }
 
-
-/* calendar active day */
-.datepicker table tr td.active {
-  background: var(--primary-main-purple-500) !important;
-}
-
-.datepicker table tr td.active:hover {
-  background: var(--primary-hover-purple-600) !important;
-  color: white !important;
-}
-
 /* calendar day */
 .datepicker table tr td.day {
   color: var(--on-background-light-helper-grey-600) !important;
@@ -1004,4 +993,15 @@ rd-tab-header-item for data tab
 .datepicker table tr td.day:hover {
   background-color: var(--background-light-hover) !important;
   color: var(--on-background-light-main-grey-900) !important;
+}
+
+/* calendar active day */
+.datepicker table tr td.active {
+  color: white !important;
+  background: var(--primary-main-purple-500) !important;
+}
+
+.datepicker table tr td.active:hover {
+  background: var(--primary-hover-purple-600) !important;
+  color: white !important;
 }
