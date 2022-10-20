@@ -382,8 +382,17 @@ input-base-module: v2
   background: none !important;
   border-radius: 6px !important;
   border: 1px solid var(--on-border-grey-300) !important;
-  color: red !important;
   font-weight: 500 !important;
+  transition-property: background-color,
+  border-color,
+  color,
+  fill,
+  stroke,
+  opacity,
+  box-shadow,
+  transform;
+  ;
+  transition-duration: 200ms;
 }
 
 [data-radiant-v2] .input-base-module__container .input-base-module__input {
@@ -391,11 +400,17 @@ input-base-module: v2
   padding-bottom: 3px !important;
 }
 
-[data-radiant-v2] .input-base-module__container:hover,
+/* [data-radiant-v2] .input-base-module__container:hover,
 .bk-input-container-inner:hover {
   box-shadow: none !important;
-  border: 1px solid var(--primary-main-purple-500) !important;
-}
+  border: 1px solid var(--primary-border-purple-300) !important;
+} */
+
+/* [data-radiant-v2] .input-base-module__container:focus,
+.bk-input-container-inner:focus {
+  box-shadow: none !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
+} */
 
 /* remove blue bottom border */
 .bk-input-container-inner::after {
@@ -749,7 +764,9 @@ input-base-module: v2
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:hover, .bk-dialog-container textarea:hover,
 .bk-dialog .bk-dialog-field input:hover,
-.bk-range-select > .bk-range-select-row > input:hover   {
+.bk-range-select > .bk-range-select-row > input:hover,
+[data-radiant-v2] .input-base-module__container:hover,
+.bk-input-container-inner:hover {
   background: none !important;
   border: 1px solid var(--primary-border-purple-300) !important;
 }
@@ -757,14 +774,18 @@ input-base-module: v2
 .bk-dialog-container rd-icon:not(.bk-input-icon)+input:focus,
 .bk-dialog-container textarea:focus,
 .bk-dialog .bk-dialog-field input:focus,
-.bk-range-select>.bk-range-select-row>input:focus {
+.bk-range-select>.bk-range-select-row>input:focus, 
+[data-radiant-v2] .input-base-module__container:focus,
+.bk-input-container-inner:focus {
   box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
   border-color: var(--on-form-focusborder) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
 .bk-dialog .bk-dialog-field input:active,
-.bk-range-select > .bk-range-select-row > input:active   {
+.bk-range-select > .bk-range-select-row > input:active,
+[data-radiant-v2] .input-base-module__container:active,
+.bk-input-container-inner:active {
   border: 1px solid var(--primary-main-purple-500) !important; 
   box-shadow: 0px 0px 0px 3px #C3B9F9;
   color: var(--on-background-light-placeholder-grey-400) !important;
