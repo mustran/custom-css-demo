@@ -377,16 +377,14 @@ chip-base-module: answer v2
 input-base-module: v2
  */
 
-/* [data-radiant-v2] .input-base-module__container,
+[data-radiant-v2] .input-base-module__container,
 .bk-input-container-inner {
-  background: var(--primary-border-purple-300) !important;
-  box-shadow: inset 1px 1px 1px var(--black-shadow-color) !important;
-  border-radius: 4px !important;
-  border: 1px solid transparent !important;
-  border-bottom: none !important;
-  color: var(--light-secondary) !important;
+  background: none !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--on-border-grey-300) !important;
+  color: red !important;
   font-weight: 500 !important;
-} */
+}
 
 [data-radiant-v2] .input-base-module__container .input-base-module__input {
   font-size: 16px !important;
@@ -728,13 +726,11 @@ input-base-module: v2
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input,
 .bk-dialog-container textarea,
 .bk-dialog .bk-dialog-field input,
-.bk-range-select > .bk-range-select-row > input,
-[data-radiant-v2] .input-base-module__container,
-.bk-input-container-inner {
+.bk-range-select > .bk-range-select-row > input {
   background: none !important;
   border-radius: 4px !important;
   border:  1px solid var(--on-border-grey-300) !important; 
-  color: var(--light-secondary) !important;
+  color: var(--on-background-light-placeholder-grey-400) !important;
   font-size: 16px !important; 
   line-height: 24px !important;
   min-height: 40px !important;
@@ -753,9 +749,7 @@ input-base-module: v2
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:hover, .bk-dialog-container textarea:hover,
 .bk-dialog .bk-dialog-field input:hover,
-.bk-range-select > .bk-range-select-row > input:hover,
-[data-radiant-v2] .input-base-module__container,
-.bk-input-container-inner:hover {
+.bk-range-select > .bk-range-select-row > input:hover   {
   background: none !important;
   border: 1px solid var(--primary-border-purple-300) !important;
 }
@@ -763,18 +757,14 @@ input-base-module: v2
 .bk-dialog-container rd-icon:not(.bk-input-icon)+input:focus,
 .bk-dialog-container textarea:focus,
 .bk-dialog .bk-dialog-field input:focus,
-.bk-range-select>.bk-range-select-row>input:focus,
-[data-radiant-v2] .input-base-module__container,
-.bk-input-container-inner:focus {
+.bk-range-select>.bk-range-select-row>input:focus {
   box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
   border-color: var(--on-form-focusborder) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
 .bk-dialog .bk-dialog-field input:active,
-.bk-range-select > .bk-range-select-row > input:active,
-[data-radiant-v2] .input-base-module__container,
-.bk-input-container-inner:active {
+.bk-range-select > .bk-range-select-row > input:active   {
   border: 1px solid var(--primary-main-purple-500) !important; 
   box-shadow: 0px 0px 0px 3px #C3B9F9;
   color: var(--on-background-light-placeholder-grey-400) !important;
