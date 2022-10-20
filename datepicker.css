@@ -969,3 +969,8 @@ rd-tab-header-item for data tab
   padding: 4px 8px !important;
   border: 1px solid var(--on-border-grey-300);
 }
+
+.datepicker tr {
+  height: 50px;
+  width: 50px;
+}
