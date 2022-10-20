@@ -956,8 +956,8 @@ rd-tab-header-item for data tab
   gap: var(--space-space6);
   padding-top: var(--space-space2);
   padding-bottom: var(--space-space2);
-  background: var();
-  color: var(--on-background-light-active-grey-200);
+  background: var(--on-background-light-active-grey-200);
+  color: var(--on-background-light-helper-grey-600);
   flex-shrink: 0;
   margin-top: auto;
   margin-bottom: auto;
