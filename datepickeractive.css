@@ -984,3 +984,11 @@ rd-tab-header-item for data tab
   padding-bottom: 10px !important;
   padding-top: 10px !important;
 }
+
+td.active {
+  background: var(--primary-main-purple-500);
+}
+
+td.active:hover {
+  background: var(--primary-hover-purple-600);
+}
