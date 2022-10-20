@@ -985,10 +985,17 @@ rd-tab-header-item for data tab
   padding-top: 10px !important;
 }
 
+/* calendar day */
+td.day:hover {
+  background-color: var(--background-light-hover);
+  color: var(--on-background-light-main-grey-900) !important;
+}
+
+/* calendar active day */
 td.active {
-  background: var(--primary-main-purple-500);
+  background: var(--primary-main-purple-500) !important;
 }
 
 td.active:hover {
-  background: var(--primary-hover-purple-600);
+  background: var(--primary-hover-purple-600) !important;
 }
