@@ -753,7 +753,9 @@ input-base-module: v2
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:hover, .bk-dialog-container textarea:hover,
 .bk-dialog .bk-dialog-field input:hover,
-.bk-range-select > .bk-range-select-row > input:hover   {
+.bk-range-select > .bk-range-select-row > input:hover,
+[data-radiant-v2] .input-base-module__container,
+.bk-input-container-inner:hover {
   background: none !important;
   border: 1px solid var(--primary-border-purple-300) !important;
 }
@@ -761,14 +763,18 @@ input-base-module: v2
 .bk-dialog-container rd-icon:not(.bk-input-icon)+input:focus,
 .bk-dialog-container textarea:focus,
 .bk-dialog .bk-dialog-field input:focus,
-.bk-range-select>.bk-range-select-row>input:focus {
+.bk-range-select>.bk-range-select-row>input:focus,
+[data-radiant-v2] .input-base-module__container,
+.bk-input-container-inner:focus {
   box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
   border-color: var(--on-form-focusborder) !important;
 }
 
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input:active, .bk-dialog-container textarea:active,
 .bk-dialog .bk-dialog-field input:active,
-.bk-range-select > .bk-range-select-row > input:active   {
+.bk-range-select > .bk-range-select-row > input:active,
+[data-radiant-v2] .input-base-module__container,
+.bk-input-container-inner:active {
   border: 1px solid var(--primary-main-purple-500) !important; 
   box-shadow: 0px 0px 0px 3px #C3B9F9;
   color: var(--on-background-light-placeholder-grey-400) !important;
