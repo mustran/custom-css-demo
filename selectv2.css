@@ -330,7 +330,7 @@ chip-base-module: answer v2
 
 .select-module__selectOpen > [data-radiant-v2].icon-module__gray,
 .bk-select.bk-dropdown-open .dropdown-caret {
-  background: var(--btn-gradients-light-pressed-color) !important;
+  background: none !important;
   border-radius: 4px !important;
 }
 
