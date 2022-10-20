@@ -377,7 +377,7 @@ chip-base-module: answer v2
 input-base-module: v2
  */
 
-[data-radiant-v2] .input-base-module__container,
+/* [data-radiant-v2] .input-base-module__container,
 .bk-input-container-inner {
   background: var(--primary-border-purple-300) !important;
   box-shadow: inset 1px 1px 1px var(--black-shadow-color) !important;
@@ -386,7 +386,7 @@ input-base-module: v2
   border-bottom: none !important;
   color: var(--light-secondary) !important;
   font-weight: 500 !important;
-}
+} */
 
 [data-radiant-v2] .input-base-module__container .input-base-module__input {
   font-size: 16px !important;
@@ -728,7 +728,9 @@ input-base-module: v2
 .bk-dialog-container  rd-icon:not(.bk-input-icon)+input,
 .bk-dialog-container textarea,
 .bk-dialog .bk-dialog-field input,
-.bk-range-select > .bk-range-select-row > input {
+.bk-range-select > .bk-range-select-row > input,
+[data-radiant-v2] .input-base-module__container,
+.bk-input-container-inner {
   background: none !important;
   border-radius: 4px !important;
   border:  1px solid var(--on-border-grey-300) !important; 
