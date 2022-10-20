@@ -426,7 +426,7 @@ input-base-module: v2
 
 [data-radiant-v2].icon-module__gray,
 .bk-input-container-inner .rd-icon-color-gray {
-  fill: var(--primary-main-purple-500) !important;
+  fill: var(--on-background-light-placeholder-grey-400) !important;
 }
 
 .rd-icon-color-gray {
