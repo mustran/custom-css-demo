@@ -987,11 +987,11 @@ rd-tab-header-item for data tab
 
 
 /* calendar active day */
-td.active {
+.datepicker table tr td.active {
   background: var(--primary-main-purple-500) !important;
 }
 
-td.active:hover {
+.datepicker table tr td.active:hover {
   background: var(--primary-hover-purple-600) !important;
   color: white !important;
 }
