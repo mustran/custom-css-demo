@@ -36,6 +36,11 @@
   --on-background-light-helper-grey-600: #475467;
   --on-background-light-main-grey-900: #101828;
   --on-form-focusborder: #5234edff;
+  --on-background-light-active-grey-200:#E4E7EC;
+  --fontWeights-medium: 500;
+  --fontSizes-xs: 0.75rem;
+  --space-space2: 0.125rem;
+  --space-space6: 0.375rem;
 }
 
 /* Font-family */
@@ -926,4 +931,34 @@ rd-tab-header-item for data tab
 .bk-dialog-container .bk-dialog .modal-header,
 .bk-dialog-container .bk-dialog {
   border-radius: 8px !important;
+}
+
+/* filter tags */
+
+.bk-suggestion-category-container .bk-suggestion-category-followup-container .rd-chip-text {
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 100%;
+  font-weight: var(--fontWeights-medium);
+  line-height: 1.2;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  border-width: 1px;
+  border-color: var(--on-background-light-helper-grey-600);
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  font-size: var(--fontSizes-xs);
+  padding-inline-start: var(--space-space6);
+  padding-inline-end: var(--space-space6);
+  border-radius: 4px;
+  gap: var(--space-space6);
+  padding-top: var(--space-space2);
+  padding-bottom: var(--space-space2);
+  background: var();
+  color: var(--on-background-light-active-grey-200);
+  flex-shrink: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
