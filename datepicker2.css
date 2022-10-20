@@ -970,7 +970,7 @@ rd-tab-header-item for data tab
   border: 1px solid var(--on-border-grey-300);
 }
 
-.datepicker th {
-  height: 50px;
-  width: 50px;
+.datepicker td {
+  height: 50px !important;
+  width: 50px !important;
 }
