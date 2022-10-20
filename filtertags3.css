@@ -955,14 +955,12 @@ rd-tab-header-item for data tab
   min-width: 1.5rem !important;
   font-size: var(--fontSizes-sm) !important;
   border-radius: var(--radii-md) !important;
-  padding-inline-start: var(--space-space2) !important;
-  padding-inline-end: var(--space-space2) !important;
-  padding-top: var(--space-spaceXs) !important;
-  padding-bottom: var(--space-spaceXs) !important;
   gap: var(--space-spaceSm) !important;
   background: var(--on-background-light-active-grey-200) !important;
   color: var(--on-background-light-helper-grey-600) !important;
   flex-shrink: 0 !important;
   margin-top: auto !important;
   margin-bottom: auto !important;
+  padding: 4px 8px !important;
+  border: 1px solid var(--on-border-grey-300);
 }
