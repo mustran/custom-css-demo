@@ -980,7 +980,7 @@ rd-tab-header-item for data tab
   width: 40px !important;
 }
 
-.table-condensed thead > * {
+.table-condensed thead > tr > th {
   margin: 20px !important;
   background: red !important;
 }
