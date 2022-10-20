@@ -996,12 +996,14 @@ rd-tab-header-item for data tab
 }
 
 /* calendar active day */
-.datepicker table tr td.active {
+.datepicker table tr td.active,
+.datepicker table tr td span.active.active {
   color: white !important;
   background: var(--primary-main-purple-500) !important;
 }
 
-.datepicker table tr td.active:hover {
+.datepicker table tr td.active:hover,
+.datepicker table tr td span.active.active:hover {
   background: var(--primary-hover-purple-600) !important;
   color: white !important;
 }
