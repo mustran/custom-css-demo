@@ -425,7 +425,9 @@ input-base-module: v2
 }
 
 [data-radiant-v2].icon-module__gray,
-.bk-input-container-inner .rd-icon-color-gray {
+.bk-input-container-inner .rd-icon-color-gray, 
+[data-radiant-v2].icon-module__gray:hover,
+.bk-input-container-inner .rd-icon-color-gray:hover {
   fill: var(--on-background-light-placeholder-grey-400) !important;
 }
 
