@@ -34,7 +34,7 @@
   --on-border-grey-300: #D0D5DD;
   --on-background-light-placeholder-grey-400: #98A2B3;
   --on-background-light-helper-grey-600: #475467;
-  --shadow-lg-grey-800: ##1D2939;
+  --shadow-lg-grey-800: #1D2939;
   --on-background-light-main-grey-900: #101828;
   --on-form-focusborder: #5234edff;
   --on-background-light-active-grey-200:#E4E7EC;
@@ -649,6 +649,7 @@ input-base-module: v2
   background: var(--grey-p9-color) !important;
   border: 0.5px solid var(--grey-p6-color) !important;
   border-radius: 10px !important;
+  box-shadow: none !important;
 }
 
 .bk-pinboard-data-viz:hover, 
