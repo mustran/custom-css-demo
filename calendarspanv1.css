@@ -1021,4 +1021,5 @@ rd-tab-header-item for data tab
 .datepicker table tr td span {
   width: 40px !important;
   height: 40px !important;
+  line-height: 40px !important;
 }
