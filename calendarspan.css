@@ -1011,6 +1011,14 @@ rd-tab-header-item for data tab
   color: white !important;
 }
 
+
+/* powered by thoughtspot */
 .bk-embed .bk-embed-powered-by-ts-ribbon{
   display: none !important;
+}
+
+/* calendar months and years */
+.datepicker table tr td span {
+  width: 40px !important;
+  height: 40px !important;
 }
