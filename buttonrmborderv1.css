@@ -232,7 +232,6 @@ bk-axis-sort-icon : pinboard up/down arrow
   .rd-button-wrapper
   .rd-button-secondary:hover {
   background: var(--light-hover-gray-100) !important;
-  border: 1px solid var(--primary-border-purple-300) !important;
   color: var(--primary-main-purple-500) !important;
 }
 
