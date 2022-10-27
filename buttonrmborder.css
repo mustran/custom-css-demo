@@ -184,7 +184,6 @@ bk-axis-sort-icon : pinboard up/down arrow
 */
 
 .bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper {
-  border: 1px solid var(--primary-main-purple-500) !important;
   border-radius: 4px !important;
 }
 
