@@ -756,7 +756,8 @@ input-base-module: v2
 .bk-dialog-container textarea,
 .bk-dialog .bk-dialog-field input,
 .bk-range-select > .bk-range-select-row > input,
-.bk-select-head {
+.bk-select-head,
+.bk-share-principal .bk-search-select .bk-multiple-select .select2-input {
   background: none !important;
   border-radius: 4px !important;
   border:  1px solid var(--on-border-grey-300) !important; 
