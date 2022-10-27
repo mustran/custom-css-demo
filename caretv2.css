@@ -1078,4 +1078,5 @@ rd-tab-header-item for data tab
 .rd-button-icon-caret-down,
 .rd-button-icon-caret-down:hover {
   border: none !important;
+  background: none !important;
 }
