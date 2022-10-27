@@ -1053,3 +1053,9 @@ rd-tab-header-item for data tab
   width: 98.3% !important;
   left: 0.5% !important;
 }
+
+/* checkbox */
+
+input[type="checkbox"]:checked {
+  background: red !important;
+}
