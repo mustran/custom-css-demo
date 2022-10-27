@@ -1073,3 +1073,8 @@ rd-tab-header-item for data tab
   outline: none !important;
   outline-offset: none !important;
 }
+
+/* caret down (button pointing up/down), present on share liveboard */
+.rd-button-icon-caret-down {
+  border: none !important;
+}
