@@ -47,6 +47,11 @@
   --space-space6: 0.375rem;
   --space-spaceMd: 1rem;
   --radii-md: 0.375rem;
+
+    --ts-var-button--primary-color: black;
+    --ts-var-button--primary-background: red;
+    --ts-var-button--primary--hover-background: green;
+    --ts-var-button--primary--font-family: initial;
 }
 
 /* Font-family */
