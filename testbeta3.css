@@ -1091,3 +1091,13 @@ rd-tab-header-item for data tab
   border: none !important;
   background: none !important;
 }
+
+/* Insights */
+.avatar-module__avatar {
+  display: none !important;
+}
+
+.ag-root.ag-layout-auto-height,
+.ag-root.ag-layout-normal {
+  background: red !important;
+}
