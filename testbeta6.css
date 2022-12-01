@@ -51,21 +51,18 @@
 
   /* primary */
   --ts-var-button--primary-color: white;
-  --ts-var-button--primary-background: #5234ED;
-  --ts-var-button--primary--hover-background: #3513DB;
-
-    background: var(--chakra-colors-branding-scheme-500);
-    color: var(--chakra-colors-white);
+  --ts-var-button--primary-background: var(--primary-main-purple-500);
+  --ts-var-button--primary--hover-background: var(--primary-hover-purple-600);
 
   /* secondary */
-   --ts-var-button--secondary-color: white;
-   --ts-var-button--secondary-background: #5234ED;
-   --ts-var-button--secondary--hover-background: #3513DB;
+   --ts-var-button--secondary-color: var(--primary-main-purple-500);
+   --ts-var-button--secondary-background: var(--grey-p9-color);
+   --ts-var-button--secondary--hover-background: var(--background-light-hover);
 
    /* tertiary */
-   --ts-var-button--tertiary-color: white;
+   /* --ts-var-button--tertiary-color: white;
    --ts-var-button--tertiary-background: #5234ED;
-   --ts-var-button--tertiary--hover-background: #3513DB;
+   --ts-var-button--tertiary--hover-background: #3513DB; */
 }
 
 /* Font-family */
