@@ -48,10 +48,16 @@
   --space-spaceMd: 1rem;
   --radii-md: 0.375rem;
 
+
+  /* primary */
     --ts-var-button--primary-color: black;
     --ts-var-button--primary-background: #5234ED;
     --ts-var-button--primary--hover-background: #3513DB;
-    /* --ts-var-button--primary--font-family: initial; */
+
+  /* secondary */
+   --ts-var-button--secondary-color: red;
+   --ts-var-button--secondary-background: green;
+   --ts-var-button--secondary--hover-background: yellow;
 }
 
 /* Font-family */
