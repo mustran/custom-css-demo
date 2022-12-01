@@ -84,6 +84,11 @@ textarea {
   font-weight: 500 !important;
 }
 
+button {
+  border: 1px solid var(--primary-border-purple-300) !important;
+  border-radius: 4px !important;
+}
+
 /* app background*/
 
 .bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header
