@@ -50,14 +50,22 @@
 
 
   /* primary */
-    --ts-var-button--primary-color: black;
-    --ts-var-button--primary-background: #5234ED;
-    --ts-var-button--primary--hover-background: #3513DB;
+  --ts-var-button--primary-color: white;
+  --ts-var-button--primary-background: #5234ED;
+  --ts-var-button--primary--hover-background: #3513DB;
+
+    background: var(--chakra-colors-branding-scheme-500);
+    color: var(--chakra-colors-white);
 
   /* secondary */
-   --ts-var-button--secondary-color: red;
-   --ts-var-button--secondary-background: green;
-   --ts-var-button--secondary--hover-background: yellow;
+   --ts-var-button--secondary-color: white;
+   --ts-var-button--secondary-background: #5234ED;
+   --ts-var-button--secondary--hover-background: #3513DB;
+
+   /* tertiary */
+   --ts-var-button--tertiary-color: white;
+   --ts-var-button--tertiary-background: #5234ED;
+   --ts-var-button--tertiary--hover-background: #3513DB;
 }
 
 /* Font-family */
@@ -1095,14 +1103,4 @@ rd-tab-header-item for data tab
 /* Insights */
 .avatar-module__avatar {
   display: none !important;
-}
-
-.ag-root.ag-layout-auto-height,
-.ag-root.ag-layout-normal {
-  background: red !important;
-}
-
-/* Search test */
-._button_pwbo9_2154 ._buttonWithText_pwbo9_2273 ._primary_pwbo9_2468 ._sizeM_pwbo9_2413 ._backgroundLight_pwbo9_2463 ._both_pwbo9_2368 {
-  background: red !important;
 }
