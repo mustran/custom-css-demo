@@ -122,6 +122,7 @@ bk-axis-sort-icon : pinboard up/down arrow
   ) !important;
   border-radius: 4px !important;
   color: var(--grey-p9-color) !important;
+  border: none !important;
 }
 
 /*fix8: +Pinboard' should be primary button.*/
