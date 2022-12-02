@@ -26,7 +26,7 @@
 
     /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page*/
     --ts-var-button--secondary-color: #5234ED;
-    --ts-var-button--secondary-background: #E9EAED;
+    --ts-var-button--secondary-background: #FFFFFF;
     --ts-var-button--secondary--hover-background: #F2F4F7;
 
     /* Tertiary buttons. For example, the Undo, Redo buttons on the search results page*/
