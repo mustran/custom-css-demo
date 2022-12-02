@@ -1107,3 +1107,9 @@ rd-tab-header-item for data tab
 .avatar-module__avatar {
   display: none !important;
 }
+
+
+/* test */
+.pinboard-header-module__embedPinboardHeader {
+  display: none;
+}
