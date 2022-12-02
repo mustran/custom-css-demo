@@ -1113,3 +1113,7 @@ rd-tab-header-item for data tab
 .pinboard-header-module__embedPinboardHeader {
   display: none !important;
 }
+
+.answer-content-module__answerContent {
+  background-color: red !important;
+}
