@@ -1,0 +1,54 @@
+:root {
+    /******** App ********/
+
+    /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+    --ts-var-root-background: #FFFFFF;
+    --ts-var-root-color: #1D232F;
+    --ts-var-root-font-family: Optimo-Plain, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --ts-var-root-text-transform: initial;
+
+    /******** Top navigation panel ********/
+    /*Font color and background color of the navigation panel*/
+    --ts-var-nav-color: #F7F5FF;
+    --ts-var-nav-background: #163772;
+
+    /******** Buttons ********/
+    /* Application-wide button design for main buttons. For example, Search data*/
+    --ts-var-button-border-radius: 5px;
+
+    /* Application-wide button design for smaller buttons. For example, buttons with share and favorite icons*/
+    --ts-var-button--icon-border-radius: 5px;
+
+    /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
+    --ts-var-button--primary-color: #ffffff;
+    --ts-var-button--primary-background: #2770EF;
+    --ts-var-button--primary--hover-background: #1D232F;
+    --ts-var-button--primary--font-family: Optimo-Plain, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page*/
+    --ts-var-button--secondary-color: #1D232F;
+    --ts-var-button--secondary-background: #EAEDF2;
+    --ts-var-button--secondary--hover-background: #2359B6;
+    --ts-var-button--secondary--font-family: Optimo-Plain, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    /* Tertiary buttons. For example, the Undo, Redo buttons on the search results page*/
+    --ts-var-button--tertiary-color: #1D232F;
+    --ts-var-button--tertiary-background: #FFFFFF;
+    --ts-var-button--tertiary--hover-background: #EAEDF2;
+
+    /******** Visualizations ********/
+    /* Visualization title text customization*/
+    --ts-var-viz-title-color: #2359B6;
+    --ts-var-viz-title-font-family: Optimo-Plain, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --ts-var-viz-title-text-transform: Capitalize;
+
+    /* Visualization subtitle and description text customization*/
+    --ts-var-viz-description-color: #C26232;
+    --ts-var-viz-description-font-family: Optimo-Plain, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --ts-var-viz-description-text-transform: Capitalize;
+
+    /* Visualization tile customization*/
+    --ts-var-viz-border-radius: 15px;
+    --ts-var-viz-box-shadow: 1px 2px 5px #888888;
+    --ts-var-viz-background: #F2F7FF;
+}
