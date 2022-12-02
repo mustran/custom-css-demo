@@ -111,6 +111,10 @@ button-module__primary/secondary: v2
 bk-axis-sort-icon : pinboard up/down arrow
 */
 
+.button-module__secondary {
+
+}
+
 .rd-button-primary,
 .bk-button-primary,
 .button-module__primary {
@@ -166,7 +170,8 @@ bk-axis-sort-icon : pinboard up/down arrow
 .rd-button-secondary,
 .bk-secondary-button,
 .button-module__secondary,
-.bk-axis-sort-icon {
+.bk-axis-sort-icon,
+.button-module__secondary {
   background: var(--grey-p9-color) !important;
   color: var(--primary-main-purple-500) !important;
   border: 1px solid var(--primary-border-purple-300) !important;
@@ -177,7 +182,8 @@ bk-axis-sort-icon : pinboard up/down arrow
 .rd-button-secondary:hover,
 .bk-secondary-button:hover,
 .button-module__secondary:hover,
-.bk-axis-sort-icon:hover {
+.bk-axis-sort-icon:hover,
+.button-module__secondary:hover {
   background: var(--background-light-hover) !important;
   color: var(--primary-main-purple-500) !important;
   border: 1px solid var(--primary-border-purple-300) !important;
@@ -186,7 +192,8 @@ bk-axis-sort-icon : pinboard up/down arrow
 .rd-secondary-button:active,
 .bk-secondary-button:active,
 .button-module__secondary:active,
-.bk-axis-sort-icon:active {
+.bk-axis-sort-icon:active,
+.button-module__secondary:active {
   background: var(--btn-gradients-light-pressed-color) !important;
   border: 1px solid transparent !important;
   box-shadow: none !important;
@@ -1117,3 +1124,4 @@ rd-tab-header-item for data tab
 .answer-content-module__answerContent {
   background-color: red !important;
 }
+
