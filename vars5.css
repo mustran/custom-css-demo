@@ -49,6 +49,14 @@
     --ts-var-viz-background: #ffffff;
 }
 
+button {
+    border: 1px solid var(#A696F6) !important;
+}
+
+.button-module_primary {
+    border: none !important;
+}
+
 .button-module__secondary {
     background: var(--ts-var-button--secondary-background) !important;
     color: var(--ts-var-button--secondary-color) !important;
