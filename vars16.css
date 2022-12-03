@@ -116,3 +116,10 @@ input {
     transform;
     transition-duration: 200ms;
 }
+
+input:active{
+    border: 1px solid var(--ts-var-button--primary-background) !important;
+    box-shadow: 0px 0px 0px 3px #c3b9f9 !important;
+    color: var(--on-background-light-placeholder-grey-400) !important;
+    font-style: normal !important;
+}
