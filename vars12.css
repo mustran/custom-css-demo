@@ -89,6 +89,6 @@ button {
 
 /* Fix hovering on pinboards height */
 /* description goes down because buttons have 1px border */
-.answer-content-header-module__container {
+.flex-layout-module__vertical.spacing-a > * {
     min-height: 35px !important;
 }
