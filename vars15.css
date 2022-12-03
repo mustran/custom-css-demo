@@ -3,6 +3,8 @@
 
     /* DS variables */
     --shadow-lg-grey-800: rgba(29, 41, 57, 0.10);
+    --on-border-grey-300: #D0D5DD;
+    --on-background-light-placeholder-grey-400: #98A2B3;
 
     /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
     --ts-var-root-background: #FFFFFF;
@@ -91,4 +93,26 @@ button {
 /* description goes down because buttons have 1px border */
 .flex-layout-module__vertical:first-of-type {
     min-height: 30px !important;
+}
+
+/* Inputs*/
+
+input {
+    background: none !important;
+    border-radius: 4px !important;
+    border: 1px solid var(--on-border-grey-300) !important;
+    color: var(--on-background-light-placeholder-grey-400) !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    min-height: 40px !important;
+    padding: 8px 12px 8px 12px !important;
+    transition-property: background-color,
+    border-color,
+    color,
+    fill,
+    stroke,
+    opacity,
+    box-shadow,
+    transform;
+    transition-duration: 200ms;
 }
