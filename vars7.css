@@ -71,8 +71,15 @@ button {
     border: 1px solid #A696F6 !important;
 }
 
-/* .button-module__secondary:active {
-    background: var(--btn-gradients-light-pressed-color) !important;
-    border: 1px solid transparent !important;
+/* Pinboard cards */
+.react-grid-item {
+    background: #ffffff !important;
+    border: 0.5px solid var(--grey-p6-color) !important;
+    border-radius: 10px !important;
     box-shadow: none !important;
-} */
+}
+
+.react-grid-item:hover {
+    border: 0.5px solid var(--grey-p6-color) !important;
+    box-shadow: 0px 4px 16px 0px var(--shadow-lg-grey-800) !important;
+}
