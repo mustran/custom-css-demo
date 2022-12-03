@@ -90,5 +90,5 @@ button {
 /* Fix hovering on pinboards height */
 /* description goes down because buttons have 1px border */
 .flex-layout-module__vertical:first-of-type {
-    min-height: 35px !important;
+    min-height: 30px !important;
 }
