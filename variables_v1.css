@@ -70,11 +70,6 @@ html * {
     font-weight: 500 !important;
 }
 
-/* Remove overflow */
-.pinboard-module__pinboardPage {
-    overflow: hidden !important;
-}
-
 /* Remove TS powered logo */
 .bk-powered-footer {
     display: none !important;
