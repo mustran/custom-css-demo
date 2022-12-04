@@ -5,6 +5,8 @@
     --shadow-lg-grey-800: rgba(29, 41, 57, 0.10);
     --on-border-grey-300: #D0D5DD;
     --on-background-light-placeholder-grey-400: #98A2B3;
+    --primary-border-purple-300: #A696F6;
+    --on-shadow-focus: #C3B9F9;
 
     /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
     --ts-var-root-background: #FFFFFF;
@@ -54,18 +56,26 @@
     --ts-var-viz-background: #ffffff;
 }
 
+/* Pinboard header */
+.pinboard-header-module__pinboardHeaderContainer {
+    box-shadow: none !important;
+}
+
+/* override border for all buttons, and then remove it on primary ones,
+because there is no way to add border with TS variables by now */
 button {
-    border: 1px solid #A696F6 !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
 }
 
 .button-module_primary {
     border: none !important;
 }
 
+/* Button secondary */
 .button-module__secondary {
     background: var(--ts-var-button--secondary-background) !important;
     color: var(--ts-var-button--secondary-color) !important;
-    border: 1px solid #A696F6 !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
     box-sizing: border-box !important;
     border-radius: 4px !important;
 }
@@ -73,7 +83,7 @@ button {
 .button-module__secondary:hover {
     background: var(--ts-var-button--secondary--hover-background) !important;
     color: var(--ts-var-button--secondary-color) !important;
-    border: 1px solid #A696F6 !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
 }
 
 /* Pinboard cards */
@@ -96,8 +106,7 @@ button {
 }
 
 /* Inputs*/
-
-input {
+/* input {
     background: none !important;
     border-radius: 4px !important;
     border: 1px solid var(--on-border-grey-300) !important;
@@ -119,7 +128,8 @@ input {
 
 input:active{
     border: 1px solid var(--ts-var-button--primary-background) !important;
-    box-shadow: 0px 0px 0px 3px #c3b9f9 !important;
+    box-shadow: 0px 0px 0px 3px var(--on-shadow-focus) !important;
     color: var(--on-background-light-placeholder-grey-400) !important;
     font-style: normal !important;
-}
+} */
+
