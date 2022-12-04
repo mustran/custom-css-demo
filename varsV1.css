@@ -56,6 +56,20 @@
     --ts-var-viz-background: #ffffff;
 }
 
+/* Font-family */
+@font-face {
+    font-family: inter !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff') !important;
+}
+
+html * {
+    font-family: 'InterRegular' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+
 /* Pinboard header */
 .pinboard-header-module__pinboardHeaderContainer {
     box-shadow: none !important;
