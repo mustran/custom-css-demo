@@ -1,6 +1,17 @@
 /*root variables*/
 
 :root {
+
+  /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
+  --ts-var-button--primary-color: #ffffff;
+  --ts-var-button--primary-background: #5234ED;
+  --ts-var-button--primary--hover-background: #3513DB;
+
+  /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page*/
+  --ts-var-button--secondary-color: #5234ED;
+  --ts-var-button--secondary-background: #FFFFFF;
+  --ts-var-button--secondary--hover-background: #F2F4F7;
+
   --black-shadow-color: rgba(0, 0, 0, 0.15);
   --light-shadow-color: rgba(0, 0, 0, 0.2);
   --btn-gradients-light-hover-quiet-color: #dcf4ff;
@@ -1115,13 +1126,4 @@ rd-tab-header-item for data tab
   display: none !important;
 }
 
-
-/* test */
-.pinboard-header-module__embedPinboardHeader {
-  display: none !important;
-}
-
-.answer-content-module__answerContent {
-  background-color: red !important;
-}
-
+/* test vars */
