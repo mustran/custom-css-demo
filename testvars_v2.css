@@ -963,7 +963,7 @@ rd-tab-header-item for data tab
 }
 
 /* share, schedule and 3dots buttons */
-.bk-pinboard-ribbon .bk-embedded-menu {
+/* .bk-pinboard-ribbon .bk-embedded-menu {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 20px;
@@ -972,7 +972,7 @@ rd-tab-header-item for data tab
   text-align: right;
   display: flex;
   height: fit-content;
-}
+} */
 
 .bk-edit-button {
   margin-left: 0.5em;
