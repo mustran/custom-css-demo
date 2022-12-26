@@ -1126,4 +1126,7 @@ rd-tab-header-item for data tab
   display: none !important;
 }
 
-/* test vars */
+/* hide filters */
+.bk-filter-list-items .bk-filter-icon {
+  display: none !important;
+}
