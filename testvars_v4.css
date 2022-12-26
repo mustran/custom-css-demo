@@ -1127,6 +1127,10 @@ rd-tab-header-item for data tab
 }
 
 /* hide filters */
-.bk-filter-list-items .bk-filter-icon {
+.bk-filter-panel .bk-filter-list-items {
+  display: none !important;
+}
+
+.bk-filter-panel .bk-filter-icon {
   display: none !important;
 }
