@@ -152,3 +152,7 @@ input:active{
     font-style: normal !important;
 } */
 
+/* hide filters */
+.bk-filter-list-items .bk-filter-icon {
+    display: none !important;
+}
