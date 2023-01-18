@@ -130,7 +130,10 @@ a[aria-controls="section-settings"] {
 
 /* tabs bottom border color (include, exclude) */
 #filter-tab-include::after,
-#configure::after {
+#filter-tab-exclude::after,
+#configure::after,
+#settings::after
+{
   background-color: var(--primary-main-purple-500) !important;
 }
 
