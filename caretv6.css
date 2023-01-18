@@ -100,13 +100,15 @@ button {
   border-radius: 4px !important;
 }
 
-button[aria-label=Clear] {
+button[aria-label=Clear], button[data-testid="sage-search-clear-btn"] {
   border: none !important;
 }
 
 button[aria-label=Clear] > p {
   color: var(--primary-main-purple-500) !important;
 }
+
+
 
 /* app background*/
 
