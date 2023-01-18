@@ -109,6 +109,7 @@ button[data-testid="data-panel-collapse-toggle"] {
 button[aria-label=Clear] > p,
 button[data-testid="add-pinboard-or-tab-button"] > p,
 button[aria-label="Add values in bulk"] > p,
+button[aria-label="Add condition"] > p,
 button[aria-label="Add values in bulk"] svg {
   color: var(--primary-main-purple-500) !important;
 }
@@ -151,7 +152,7 @@ button[data-testid="dual-intent-one-click-pin"] {
 
 /* edit chart, settings, query details and custom actions color */
 button[data-testid="chart-selector-nav-btn"],
-button[data-testid="viz-editor-nav-btn"],,
+button[data-testid="viz-editor-nav-btn"],
 button[data-testid="formula-editor-settings-button"],
 button[data-testid="formula-editor-assistant-button"] {
   color: var(--primary-main-purple-500) !important;
