@@ -108,8 +108,9 @@ button[data-testid="data-panel-collapse-toggle"] {
 
 button[aria-label=Clear] > p,
 button[data-testid="add-pinboard-or-tab-button"] > p,
-button[aria-label="Add values in bulk"] > p,
 button[aria-label="Add condition"] > p,
+button[aria-label="Add condition"] svg,
+button[aria-label="Add values in bulk"] > p,
 button[aria-label="Add values in bulk"] svg {
   color: var(--primary-main-purple-500) !important;
 }
