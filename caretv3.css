@@ -100,6 +100,10 @@ button {
   border-radius: 4px !important;
 }
 
+button[aria-label=Clear] {
+  border: none !important;
+}
+
 /* app background*/
 
 .bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header
