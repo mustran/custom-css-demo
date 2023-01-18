@@ -151,14 +151,16 @@ button[data-testid="dual-intent-one-click-pin"] {
 
 /* edit chart, settings, query details and custom actions color */
 button[data-testid="chart-selector-nav-btn"],
-button[data-testid="viz-editor-nav-btn"],
-button[data-testid="query-visualizer-btn"],
-button[data-testid="action-selector-nav-btn"],
+button[data-testid="viz-editor-nav-btn"],,
 button[data-testid="formula-editor-settings-button"],
 button[data-testid="formula-editor-assistant-button"] {
   color: var(--primary-main-purple-500) !important;
 }
 
+button[data-testid="query-visualizer-btn"],
+button[data-testid="action-selector-nav-btn"] {
+  display: none !important;
+}
 
 /* app background*/
 
