@@ -105,7 +105,7 @@ button[aria-label=Clear] {
 }
 
 button[aria-label=Clear] > p {
-  color: var(--primary-border-purple-300) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 /* app background*/
