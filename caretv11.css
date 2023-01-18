@@ -128,10 +128,8 @@ a[aria-controls="section-settings"] {
   color: var(--primary-main-purple-500) !important;
 }
 
-a[aria-controls="section-filter-tab-include"]::after,
-a[aria-controls="section-filter-tab-exclude"]::after,
-a[aria-controls="section-configure"],
-a[aria-controls="section-settings"] {
+/* tabs bottom border color (include, exclude) */
+div[data-testid="tab-and-bulk-filter"] > div:first-of-type::after {
   background-color: var(--primary-main-purple-500) !important;
 }
 
