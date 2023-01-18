@@ -101,7 +101,8 @@ button {
 }
 
 button[aria-label=Clear],
-button[data-testid="sage-search-clear-btn"] {
+button[data-testid="sage-search-clear-btn"],
+button[data-testid="data-panel-collapse-toggle"] {
   border: none !important;
 }
 
@@ -115,7 +116,8 @@ button[aria-label="Add values in bulk"] svg {
 
 /* <- -> icons */
 button[data-testid="history-undo"] > svg,
-button[data-testid="history-redo"] > svg {
+button[data-testid="history-redo"] > svg,
+button[data-testid="history-reset"] > svg {
   color: var(--primary-main-purple-500) !important;
 }
 
