@@ -105,7 +105,8 @@ button[data-testid="sage-search-clear-btn"] {
   border: none !important;
 }
 
-button[aria-label=Clear] > p {
+button[aria-label=Clear] > p,
+button[data-testid="add-pinboard-or-tab-button"] > p {
   color: var(--primary-main-purple-500) !important;
 }
 
@@ -126,6 +127,12 @@ a[aria-controls="section-filter-tab-exclude"],
 a[aria-controls="section-configure"],
 a[aria-controls="section-settings"] {
   color: var(--primary-main-purple-500) !important;
+}
+
+/* Viewers / Pin buttons */
+button[data-testid="dual-intent-open-modal"],
+button[data-testid="dual-intent-one-click-pin"] {
+  border-radius: 4px !important;
 }
 
 /* tabs bottom border color (include, exclude) */
