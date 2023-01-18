@@ -109,11 +109,39 @@ button[aria-label=Clear] > p {
   color: var(--primary-main-purple-500) !important;
 }
 
+/* <- -> icons */
 button[data-testid="history-undo"] > svg,
 button[data-testid="history-redo"] > svg {
   color: var(--primary-main-purple-500) !important;
 }
 
+a[aria-controls="section-allSources"] {
+  color: var(--primary-main-purple-500) !important;
+}
+
+/* include exclude inside filter */
+/* configure settings inside edit chart */
+a[aria-controls="section-filter-tab-include"],
+a[aria-controls="section-filter-tab-exclude"],
+a[aria-controls="section-configure"],
+a[aria-controls="section-settings"] {
+  color: var(--primary-main-purple-500) !important;
+}
+
+a[aria-controls="section-filter-tab-include"]::after,
+a[aria-controls="section-filter-tab-exclude"]::after,
+a[aria-controls="section-configure"],
+a[aria-controls="section-settings"] {
+  background-color: var(--primary-main-purple-500) !important;
+}
+
+/* edit chart, settings, query details and custom actions color */
+button[data-testid="chart-selector-nav-btn"],
+button[data-testid="viz-editor-nav-btn"],
+button[data-testid="query-visualizer-btn"],
+button[data-testid="action-selector-nav-btn"] {
+  color: var(--primary-main-purple-500) !important;
+}
 
 
 /* app background*/
