@@ -104,12 +104,12 @@ button[aria-label=Clear][data-testid="sage-search-clear-btn"] {
   border: none !important;
 }
 
-button[aria-label=Clear] >p {
+button[aria-label=Clear] > p {
   color: var(--primary-main-purple-500) !important;
 }
 
 button[data-testid="history-undo"][data-testid="history-redo"] > svg {
-  fill: var(--primary-main-purple-500) !important;
+  color: var(--primary-main-purple-500) !important;
 }
 
 
