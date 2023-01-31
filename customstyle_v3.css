@@ -813,6 +813,11 @@ input-base-module: v2
   fill: var(--on-background-light-helper-grey-600) !important;
 } */
 
+/* hide worksheet filters */
+.bk-filter-panel {
+  display: none !important;
+}
+
 /* pinboard dropdown top/bottom padding */
 .rd-chip-text-style-regular, .rd-chip-text-style-bold {
   padding-top: 6px !important;
