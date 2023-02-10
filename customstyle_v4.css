@@ -814,7 +814,7 @@ input-base-module: v2
 } */
 
 /* hide worksheet filters */
-.bk-filter-panel {
+.pinboard-filter-panel .bk-filter-panel {
   display: none !important;
 }
 
