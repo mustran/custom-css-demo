@@ -106,13 +106,6 @@ button[data-testid="data-panel-collapse-toggle"] {
   border: none !important;
 }
 
-/* search button GO */
-button[aria-label=Go],
-button[aria-label=Pin] {
-  background-color:  var(--ts-var-button--secondary-color) !important;
-  color: var(--ts-var-button--secondary-background) !important;
-}
-
 button[aria-label=Clear] > p,
 button[data-testid="add-pinboard-or-tab-button"] > p,
 button[aria-label="Add condition"] > p,
