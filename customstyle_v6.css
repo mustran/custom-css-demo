@@ -166,29 +166,12 @@ button[data-testid="action-selector-nav-btn"] {
 
 /* app background*/
 
-.bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header
-/*action header */
-, .bk-actionable-list .bk-actionable-list-content .bk-list-header-wrapper
-/* table headr right/left space*/
-, .bk-actionable-list .bk-actionable-list-content .bk-list-content
-/* table body right/left space*/
-, .bk-sharable-item .bk-sharable-item-container .bk-sharable-content-container
-/*  pinboard detail */
-, .bk-vertical-flex-container-sized
-/* data tab*/,
-.answer-module__searchCurtain /* answer section*/ {
-  background-color: white !important;
-}
 
 /* Button
 bk/rd-button-primary/secondary :  v1
 button-module__primary/secondary: v2
 bk-axis-sort-icon : pinboard up/down arrow
 */
-
-.button-module__secondary {
-
-}
 
 .rd-button-primary,
 .bk-button-primary,
