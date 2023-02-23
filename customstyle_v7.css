@@ -1009,11 +1009,6 @@ rd-tab-header-item for data tab
   padding-top: 16px !important;
 }
 
-/* i icon on liveboard hover */
-.button-module__backgroundLight.button-module__secondary {
-  display: none !important;
-}
-
 .bk-edit-button {
   margin-left: 0.5em;
 }
