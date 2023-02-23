@@ -1027,7 +1027,7 @@ rd-tab-header-item for data tab
 }
 
 /* i icon on liveboard hover */
-.button-module__buttonWrapper {
+.button-module__backgroundLight.button-module__secondary {
   display: none !important;
 }
 
