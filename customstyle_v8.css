@@ -977,23 +977,6 @@ rd-tab-header-item for data tab
   margin-left: 8px !important;
 }
 
-/*fix Padding across 'GO' button need to be same. GO button padding 8 */
-.button-module__buttonWrapper.sage-search-bar-module__searchButton {
-  margin-top: 8px  !important;
-  margin-right: 8px  !important;
-  margin-bottom: 8px  !important;
-}
-
-/*after Go button padding, set alignment of search icon sage-search*/
-.sage-search-bar-module__leftIconWrapper {
-  margin-top: 19px !important;
-}
-
-/*after Go button padding, set alignment of token bar sage-search */
-.token-bar-module__tokenBarWrapper {
-  padding-top: 14px !important;
-}
-
 /*after Go button padding, set alignment of sage-search's placeholder */  
 .sage-search-box-module__bkSagePlaceholderText {
   margin-top: 8px;
