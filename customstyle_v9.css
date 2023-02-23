@@ -106,6 +106,13 @@ button[data-testid="data-panel-collapse-toggle"] {
   border: none !important;
 }
 
+/* search button GO */
+button[aria-label=Go],
+button[aria-label=Pin] {
+  background-color:  var(--ts-var-button--secondary-color) !important;
+  color: var(--ts-var-button--secondary-background) !important;
+}
+
 button[aria-label=Clear] > p,
 button[data-testid="add-pinboard-or-tab-button"] > p,
 button[aria-label="Add condition"] > p,
@@ -975,11 +982,6 @@ rd-tab-header-item for data tab
 /* fix Padding should be 8 px between the buttons. Height of the both button should be same */
 .modal-module__footer .modal-module__actionBtn {
   margin-left: 8px !important;
-}
-
-/*after Go button padding, set alignment of sage-search's placeholder */  
-.sage-search-box-module__bkSagePlaceholderText {
-  margin-top: 8px;
 }
 
  /* table inside checkbox
