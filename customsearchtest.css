@@ -1,0 +1,1130 @@
+/*root variables*/
+
+:root {
+
+    /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
+    --ts-var-button--primary-color: #ffffff;
+    --ts-var-button--primary-background: #5234ED;
+    --ts-var-button--primary--hover-background: #3513DB;
+
+    /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page*/
+    --ts-var-button--secondary-color: #5234ED;
+    --ts-var-button--secondary-background: #FFFFFF;
+    --ts-var-button--secondary--hover-background: #F2F4F7;
+
+    --black-shadow-color: rgba(0, 0, 0, 0.15);
+    --light-shadow-color: rgba(0, 0, 0, 0.2);
+    --btn-gradients-light-hover-quiet-color: #dcf4ff;
+    --btn-gradients-light-pressed-color: #aedcf5;
+    --btn-gradients-light-hover-color: #1da4ff;
+    --blue-n1-color: #0072c2;
+    --grey-p1-color: #909090;
+    --grey-p5-color: #D0D0D0;
+    --grey-p6-color: #e0e0e0;
+    --grey-p7-color: #f0f0f0;
+    --grey-p8-color: #f7f7f7;
+    --grey-p9-color: #ffffff;
+    --grey-p3-color: #b0b0b0;
+    --grey-n1-color: #707070;
+    --grey-n5-color: #303030;
+    --very-light-grey-color: #f9f9f9;
+    --icon-light-blue-color: #005eac;
+    --light-sky-blue-color: rgba(136, 221, 255, 0.15);
+    --rough-n-tumble-color: #5a4949;
+    --light-secondary: #606060;
+    --search-blue: #88DDFF;
+    --dodger-blue: #1792e5;
+    --grey800: rgba(29, 41, 57, 0.10);
+    --background-light-hover: #f2f4f7;
+    --primary-border-purple-300: #A696F6;
+    --on-shadow-focus: #C3B9F9;
+    --primary-main-purple-500: #5234ED;
+    --primary-hover-purple-600: #3513DB;
+    --primary-surface: #F4F2FE;
+    --light-hover-gray-100: #F2F4F7;
+    --on-border-grey-300: #D0D5DD;
+    --on-background-light-placeholder-grey-400: #98A2B3;
+    --on-background-light-helper-grey-600: #475467;
+    --shadow-lg-grey-800: rgba(29, 41, 57, 0.10);
+    --on-background-light-main-grey-900: #101828;
+    --on-form-focusborder: #5234edff;
+    --on-background-light-active-grey-200: #E4E7EC;
+    --fontWeights-medium: 500;
+    --fontSizes-xs: 0.75rem;
+    --fontSizes-sm: 0.875rem;
+    --space-spaceXs: 0.25rem;
+    --space-spaceSm: 0.5rem;
+    --space-space2: 0.125rem;
+    --space-space6: 0.375rem;
+    --space-spaceMd: 1rem;
+    --radii-md: 0.375rem;
+
+
+    /* primary */
+    --ts-var-button--primary-color: white;
+    --ts-var-button--primary-background: var(--primary-main-purple-500);
+    --ts-var-button--primary--hover-background: var(--primary-hover-purple-600);
+
+    /* secondary */
+    --ts-var-button--secondary-color: var(--primary-main-purple-500);
+    --ts-var-button--secondary-background: var(--grey-p9-color);
+    --ts-var-button--secondary--hover-background: var(--background-light-hover);
+
+    /* tertiary */
+    /* --ts-var-button--tertiary-color: white;
+   --ts-var-button--tertiary-background: #5234ED;
+   --ts-var-button--tertiary--hover-background: #3513DB; */
+}
+
+/* Font-family */
+@font-face {
+    font-family: inter !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    src: url(https://fonts.cdnfonts.com/s/19795/Inter-Medium.woff) format('woff') !important;
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: 'InterRegular' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+
+button {
+    border: 1px solid var(--primary-border-purple-300) !important;
+    border-radius: 4px !important;
+}
+
+button[aria-label=Clear],
+button[data-testid="sage-search-clear-btn"],
+button[data-testid="data-panel-collapse-toggle"] {
+    border: none !important;
+}
+
+button[aria-label=Clear]>p,
+button[data-testid="add-pinboard-or-tab-button"]>p,
+button[aria-label="Add condition"]>p,
+button[aria-label="Add condition"] svg,
+button[aria-label="Add values in bulk"]>p,
+button[aria-label="Add values in bulk"] svg {
+    color: var(--primary-main-purple-500) !important;
+}
+
+
+/* <- -> icons */
+button[data-testid="history-undo"]>svg,
+button[data-testid="history-redo"]>svg,
+button[data-testid="history-reset"]>svg {
+    color: var(--primary-main-purple-500) !important;
+}
+
+a[aria-controls="section-allSources"] {
+    color: var(--primary-main-purple-500) !important;
+}
+
+/* include exclude inside filter */
+/* configure settings inside edit chart */
+a[aria-controls="section-filter-tab-include"],
+a[aria-controls="section-filter-tab-exclude"],
+a[aria-controls="section-configure"],
+a[aria-controls="section-settings"] {
+    color: var(--primary-main-purple-500) !important;
+}
+
+/* Viewers / Pin buttons */
+button[data-testid="dual-intent-open-modal"],
+button[data-testid="dual-intent-one-click-pin"] {
+    border-radius: 4px !important;
+}
+
+/* tabs bottom border color (include, exclude) */
+#filter-tab-include::after,
+#filter-tab-exclude::after,
+#configure::after,
+#settings::after {
+    background-color: var(--primary-main-purple-500) !important;
+}
+
+/* edit chart, settings, query details and custom actions color */
+button[data-testid="chart-selector-nav-btn"],
+button[data-testid="viz-editor-nav-btn"],
+button[data-testid="formula-editor-settings-button"],
+button[data-testid="formula-editor-assistant-button"] {
+    color: var(--primary-main-purple-500) !important;
+}
+
+button[data-testid="query-visualizer-btn"],
+button[data-testid="action-selector-nav-btn"] {
+    display: none !important;
+}
+
+/* app background*/
+
+
+/* Button
+bk/rd-button-primary/secondary :  v1
+button-module__primary/secondary: v2
+bk-axis-sort-icon : pinboard up/down arrow
+*/
+
+.rd-button-primary,
+.bk-button-primary,
+.button-module__primary {
+    font-weight: 800 !important;
+    background: linear-gradient(144.82deg,
+            #0072c2 5.58%,
+            #1792e5 93.38%) !important;
+    border-radius: 4px !important;
+    color: var(--grey-p9-color) !important;
+    border: none !important;
+}
+
+/*fix8: +Pinboard' should be primary button.*/
+.bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary {
+    font-weight: 800 !important;
+    background: linear-gradient(144.82deg,
+            #0072c2 5.58%,
+            #1792e5 93.38%) !important;
+    box-shadow: 1px 1px 1px transparent !important;
+    border-radius: 4px !important;
+    color: var(--grey-p9-color) !important;
+    border: 1px solid transparent !important;
+}
+
+.rd-button-primary:hover,
+.bk-button-primary:hover,
+.button-module__primary:hover,
+.bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary:hover {
+    background: var(--btn-gradients-light-hover-color) !important;
+}
+
+.rd-button-primary:active,
+.bk-button-primary:active,
+.button-module__primary:active,
+.bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary:active {
+    background: var(--blue-n1-color) !important;
+}
+
+.rd-button-primary[disabled],
+.bk-button-primary[disabled],
+.button-module__primary[disabled],
+.bk-disabled-button.bk-primary-button,
+.bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary[disabled] {
+    background: var(--grey-p3-color) !important;
+    border-radius: 4px !important;
+    color: var(--grey-p9-color);
+}
+
+.rd-button-secondary,
+.bk-secondary-button,
+.button-module__secondary,
+.bk-axis-sort-icon,
+.button-module__secondary {
+    background: var(--grey-p9-color) !important;
+    color: var(--primary-main-purple-500) !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+}
+
+.rd-button-secondary:hover,
+.bk-secondary-button:hover,
+.button-module__secondary:hover,
+.bk-axis-sort-icon:hover,
+.button-module__secondary:hover {
+    background: var(--background-light-hover) !important;
+    color: var(--primary-main-purple-500) !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
+}
+
+.rd-secondary-button:active,
+.bk-secondary-button:active,
+.button-module__secondary:active,
+.bk-axis-sort-icon:active,
+.button-module__secondary:active {
+    background: var(--btn-gradients-light-pressed-color) !important;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.rd-secondary-button[disabled],
+.bk-secondary-button[disabled],
+.button-module__disabled,
+.bk-disabled-button.bk-secondary-button {
+    border: 1px solid var(--grey-p3-color) !important;
+    background: var(--grey-p9-color);
+    color: var(--grey-p3-color) !important;
+    pointer-events: none;
+}
+
+/*  modal inside seconday button 
+*/
+
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper {
+    border-radius: 4px !important;
+}
+
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper .rd-button-secondary:hover>.rd-button-text {
+    color: var(--primary-main-purple-500) !important;
+}
+
+/* modal inside seconday button (text-color)  */
+.modal-module__footer .modal-module__actionBtn .button-module__secondary>p,
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper .rd-button-secondary .rd-button-text {
+    color: var(--primary-main-purple-500) !important;
+}
+
+.modal-module__footer .modal-module__actionBtn:hover .button-module__secondary>p {
+    color: var(--grey-p9-color) !important;
+}
+
+/* modal inside seconday button (border-color)  */
+.modal-module__footer .modal-module__actionBtn>.button-module__secondary {
+    border: 1px solid var(--primary-main-purple-500) !important;
+}
+
+/* cancel button height  */
+.modal-footer .bk-cancel-button .rd-button-wrapper .rd-button-secondary {
+    color: var(--primary-main-purple-500) !important;
+    height: 29px !important;
+}
+
+.modal-module__footer .modal-module__actionBtn:hover>.button-module__secondary,
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper:hover,
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper .rd-button-secondary:hover {
+    background: var(--light-hover-gray-100) !important;
+    color: var(--primary-main-purple-500) !important;
+}
+
+.modal-module__footer .modal-module__actionBtn:active>.button-module__secondary,
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper:active,
+.bk-modal-action-buttons .bk-cancel-button .rd-button-wrapper .rd-button-secondary:active {
+    background: var(--light-hover-gray-100) !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
+    color: var(--primary-main-purple-500) !important;
+}
+
+/* Done button on modal */
+.rd-button-background-light.rd-button-primary.rd-button-size-m,
+.rd-button-background-light.rd-button-primary.rd-button-size-s,
+.rd-button-background-light.rd-button-primary.rd-button-size-xs:not(.rd-button-with-text) {
+    background: var(--primary-main-purple-500) !important;
+    color: white;
+}
+
+.rd-button-background-light.rd-button-primary.rd-button-size-m:hover,
+.rd-button-background-light.rd-button-primary.rd-button-size-s:hover,
+.rd-button-background-light.rd-button-primary.rd-button-size-xs:not(.rd-button-with-text):hover {
+    background: var(--primary-hover-purple-600) !important;
+}
+
+/*fix.17 discard changes link */
+button[aria-label="Discard changes"],
+button[aria-label="Discard changes"]:hover,
+button[aria-label="Don't save"],
+button[aria-label="Don't save"]>p,
+button[aria-label="Don't save"]:hover>p {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    color: var(--primary-main-purple-500) !important;
+    background: var(--grey-p9-color) !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+
+/*develop tab see in live btn 
+*/
+
+.button-module__primary>.button-module__buttonText {
+    color: var(--grey-p9-color);
+}
+
+/* select and filter chips
+.bk: v1
+.select-module: 
+rd-chip-wrapper: pinboard v1
+chip-base-module: answer v2
+*/
+
+.bk-select-visibility {
+    border: none !important;
+}
+
+.bk-select-head,
+.select-module__selectHead,
+.rd-chip-wrapper,
+.chip-base-module__filter {
+    border-bottom-right-radius: 4px !important;
+    border-radius: 4px !important;
+    background-color: var(--grey-p9-color) !important;
+    font: 16px !important;
+}
+
+.rd-chip.rd-chip-style-filter span {
+    color: var(--primary-main-purple-500) !important;
+}
+
+/*viz pinboard add filter chips */
+.rd-chip {
+    border-radius: 6px !important;
+    background: var(--grey-p9-color) !important;
+}
+
+.bk-select-head::after {
+    border-bottom: none !important;
+}
+
+/* select disabled */
+
+.bk-select-head.bk-disabled,
+.bk-dropdown-item-disabled,
+.select-module__selectHead[disabled] {
+    color: var(--grey-p3-color) !important;
+    background: var(--grey-p8-color) !important;
+}
+
+/* dropdown up icon caret background */
+
+.select-module__selectOpen>[data-radiant-v2].icon-module__gray,
+.bk-select.bk-dropdown-open .dropdown-caret {
+    background: none !important;
+    border-radius: 4px !important;
+}
+
+.bk-action-menu,
+.select-module__popoverWrapper>.menu-module__actionMenu {
+    background: white !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.select-module__popoverWrapper>[data-radiant-v2].input-base-module__container {
+    border: none !important;
+    padding-left: 14px;
+    background: var(--primary-border-purple-300) !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid var(--grey-p6-color) !important;
+}
+
+.select-module__popoverWrapper>.input-text-module__container {
+    padding: 0 !important;
+}
+
+/* .bk-dropdown-item-info,
+.bk-dropdown-item-container,
+.menu-module__itemInfo {
+  color: var(--on-background-light-main-grey-900) !important;
+} */
+
+.bk-dropdown-item-info:hover,
+.bk-dropdown-item-container :hover,
+.menu-module__itemInfo:hover {
+    background: var(--light-hover-gray-100) !important;
+}
+
+.bk-dropdown-item-info:hover>.bk-dropdown-text,
+.menu-module__itemInfo:hover>.menu-module__itemText>p {
+    color: var(--on-background-light-main-grey-900) !important;
+}
+
+/* filter chips pinboard v1 
+ */
+
+.rd-chip.rd-chip-style-filter {
+    color: var(--primary-main-purple-500) !important;
+    background: var(--primary-surface) !important;
+    border: 1px solid #D0D5DD !important;
+    padding: 0 10px !important;
+    /* pinboard dropdown padding */
+}
+
+/*  search field
+.bk-input-container: v1
+input-base-module: v2
+ */
+
+[data-radiant-v2] .input-base-module__container,
+.bk-input-container-inner {
+    background: none !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--on-border-grey-300) !important;
+    font-weight: 500 !important;
+    transition-property: background-color,
+        border-color,
+        color,
+        fill,
+        stroke,
+        opacity,
+        box-shadow,
+        transform;
+    ;
+    transition-duration: 200ms;
+}
+
+[data-radiant-v2] .input-base-module__container .input-base-module__input {
+    font-size: 16px !important;
+    padding-bottom: 3px !important;
+}
+
+/* [data-radiant-v2] .input-base-module__container:hover,
+.bk-input-container-inner:hover {
+  box-shadow: none !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
+} */
+
+/* [data-radiant-v2] .input-base-module__container:focus,
+.bk-input-container-inner:focus {
+  box-shadow: none !important;
+  border: 1px solid var(--primary-border-purple-300) !important;
+} */
+
+/* remove blue bottom border */
+.bk-input-container-inner::after {
+    border-bottom: 1px solid transparent !important;
+}
+
+[data-radiant-v2] .input-base-module__container:hover [data-radiant-v2].icon-module__gray,
+.bk-input-container-inner:hover .rd-icon-color-gray {
+    fill: var(--on-background-light-placeholder-grey-400) !important;
+}
+
+[data-radiant-v2].icon-module__gray,
+.bk-input-container-inner .rd-icon-color-gray,
+[data-radiant-v2].icon-module__gray:hover,
+.bk-input-container-inner .rd-icon-color-gray:hover {
+    fill: var(--on-background-light-placeholder-grey-400) !important;
+}
+
+.rd-icon-color-gray {
+    fill: var(--on-background-light-helper-grey-600) !important;
+}
+
+/* table header
+  answerlist/pinboard list => v1
+*/
+
+/*tag border*/
+.bk-tagged-label {
+    border-color: var(--light-secondary) !important;
+}
+
+/* tag text color*/
+.bk-tagged-label .bk-label-text {
+    color: var(--light-secondary) !important;
+    font-weight: 500 !important;
+}
+
+/* remove tag remove icon bg color */
+.rd-icon-remove-m>svg {
+    background-color: var(--grey-p9-color) !important;
+}
+
+/*fix16. Search box shift when pagination is done  */
+.bk-pagination-display-text {
+    width: 52px !important;
+}
+
+/* checkbox alignment */
+.bk-select-all-checkbox {
+    padding-left: 16px !important;
+}
+
+/*show table checkbox  */
+.bk-actionable-list .bk-actionable-list-content .bk-list-header .bk-select-all-checkbox,
+.bk-actionable-list .bk-actionable-list-content .bk-list-content .bk-list-content-li .bk-item-selector-checkbox {
+    visibility: visible !important;
+}
+
+/* table header */
+.bk-list-header {
+    padding: 0 !important;
+    height: 56px !important;
+    /*border bottom border 2px + height 54px */
+    border-bottom: 2px solid var(--grey-p8-color) !important;
+    line-height: 20px !important;
+    background: var(--grey-p9-color) !important;
+    font-weight: 800 !important;
+    color: var(--primary-main-purple-500) !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+/* table body text */
+.bk-actionable-list .bk-actionable-list-content .bk-list-content .bk-list-content-li {
+    max-height: 50px !important;
+    /* 49px height + 1px border */
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 50px !important;
+}
+
+/* table body hide subtext */
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-description-text {
+    display: none !important;
+}
+
+/*modified column */
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-time-and-author .bk-time-author-label,
+.rd-avatar-display-text
+
+/*author */
+    {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    color: var(--light-secondary) !important;
+}
+
+/* table Name column*/
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-name-text-wrapper .bk-name-text,
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-name-text
+
+/*Data tab: tablname column*/
+    {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0px !important;
+}
+
+/*table context box shadow */
+.bk-actionable-list .bk-actionable-list-content .bk-list-content .bk-list-content-wrapper {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: var(--light-secondary) !important;
+}
+
+/* table content title/subtitle */
+
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-name-text-wrapper .bk-name-text,
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-description-text,
+.vizChart .chart-legend-container-v2 .legend-item-v2 .label-v2 .legend-text-v2
+/* chart legend */
+,
+.bk-pagination-display-text
+
+/* pagination text */
+    {
+    color: var(--light-secondary) !important;
+}
+
+/* verticle separater */
+.bk-column-title {
+    border-left: 2px solid var(--grey-p8-color) !important;
+    text-align: center !important;
+    padding-left: 16px !important;
+    margin-right: 5px !important;
+}
+
+/* data table content alignment */
+.bk-column {
+    padding-left: 16px !important;
+}
+
+/*after select checkbox, table background */
+.bk-list-content-li.vs-repeat-repeated-element.ng-scope.bk-row-selected-bg {
+    background: var(--very-light-grey-color) !important;
+}
+
+/* Data tab: Table 
+*/
+
+/* table edge border*/
+.bk-table-container {
+    border: none !important;
+}
+
+/*data table row text*/
+.bk-table-detail .bk-explorer-table .slick-row .slick-cell.column-name-cell .edit-wrapper .bk-value
+/*static row  */
+,
+.bk-explorer .bk-content .bk-table-detail .bk-explorer-table .slick-row .slick-cell
+/* scrollable row*/
+,
+.bk-actionable-list .bk-actionable-list-content .bk-list .bk-name .bk-name-text
+
+/* Data Tab: body text */
+    {
+    font-size: 16px !important;
+    color: var(--light-secondary) !important;
+    font-weight: 500px !important;
+}
+
+/* Slick table inside data tab, after click row 
+*/
+
+/* slick header text*/
+.bk-table-container .slick-header-column .slick-column-name {
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    vertical-align: sub !important;
+}
+
+/* slick table verticle divider*/
+.bk-slickgrid-table .bk-table-container .slick-header-column .slick-resizable-handle {
+    border-right: 2px solid var(--grey-p8-color) !important;
+}
+
+/* slick header bottom border */
+.bk-slickgrid-table .bk-table-container .slick-header {
+    border-bottom: 2px solid var(--grey-p8-color) !important;
+}
+
+/* slick table header text*/
+.bk-explorer .bk-content .bk-table-detail .bk-explorer-table .slick-header-columns .slick-column-name {
+    font-weight: 800 !important;
+    color: var(--primary-main-purple-500) !important;
+    font-size: 12px !important;
+}
+
+/* table content row */
+.bk-slickgrid-table .bk-table-container .slick-row {
+    height: 39px !important;
+}
+
+/* Popup 
+*/
+
+/* popup v2 */
+.modal-module__modal {
+    box-shadow: 15px 30px 40px var(--light-shadow-color),
+        0px 11px 15px -2px var(--light-shadow-color) !important;
+    border-radius: 10px !important;
+}
+
+.modal-module__header {
+    border-bottom: none !important;
+}
+
+.modal-module__header .modal-module__title,
+.modal-header {
+    padding-top: 30px !important;
+    color: var(--on-background-light-main-grey-900) !important;
+    font-size: 24px !important;
+    background: var(--grey-p9-color) !important;
+}
+
+/*Pinboard card (regular card container)*/
+.bk-pinboard-data-viz,
+.bk-pinboard-generic-viz
+
+/* fix15.Card hover/raised shadow*/
+    {
+    background: var(--grey-p9-color) !important;
+    border: 0.5px solid var(--grey-p6-color) !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.bk-pinboard-data-viz:hover,
+.bk-pinboard-generic-viz:hover {
+    border: 0.5px solid var(--grey-p6-color) !important;
+    box-shadow: 0px 4px 16px 0px var(--shadow-lg-grey-800) !important;
+}
+
+/* pinbord table checkbox */
+.bk-checkbox-container .bk-checkbox-label::before {
+    border: 1px solid var(--grey-n1-color) !important;
+    border-radius: 2px !important;
+}
+
+/* fix truncated Pinboard title bottom  */
+.bk-sharable-item-pinboard-plugin .bk-edit-dropdown .bk-pinboard-drop-down .bk-select-box .ui-select-container .ui-select-match,
+.bk-sharable-item-pinboard-plugin .bk-edit-dropdown .bk-pinboard-drop-down .bk-select-box .ui-select-container .ui-select-match .select2-chosen {
+    height: 42px !important;
+}
+
+/* pinboard select  */
+.select2-chosen {
+    color: var(--primary-main-purple-500) !important;
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    letter-spacing: 0px !important;
+}
+
+/*Search dropdown */
+.sage-completions-dropdown-module__completion:hover,
+.bk-actionable-list .bk-actionable-list-content .bk-list-content .bk-list-content-li:hover:not(.bk-row-selected-bg)
+
+/* table hover*/
+    {
+    background-color: var(--search-blue) !important;
+}
+
+/* Pinboard */
+
+/* User Information (name and user badges) are not required */
+.bk-top-users {
+    display: none !important;
+}
+
+/* Filter icon padding is incorrect/ Dropdown outside padding w.r.t outer white container */
+.pinboard-filter-panel>.bk-filter-panel {
+    padding: 8px 16px 10px 16px !important;
+    /* already 8px + 8px */
+}
+
+/* .bk-filter-panel > .bk-filter-icon svg {
+  fill: var(--on-background-light-helper-grey-600) !important;
+} */
+
+/* hide worksheet filters */
+.pinboard-filter-panel .bk-filter-panel {
+    display: none !important;
+}
+
+/* pinboard dropdown top/bottom padding */
+.rd-chip-text-style-regular,
+.rd-chip-text-style-bold {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+
+/*fix6. Card Title font spec is wrong (pinboard card title) */
+.bk-pinboard-viz-title-description>.bk-title-description>.bk-title-section,
+.bk-title-description .bk-title-section .bk-title {
+    font-size: 16px !important;
+    font-style: normal !important;
+    line-height: 24px !important;
+    color: var(--grey-n5-color) !important;
+    font-weight: 800 !important;
+}
+
+/*fix7. pinboard card  :-breaking changes */
+/* .bk-pinboard-data-viz, .bk-pinboard-generic-viz {
+  padding: 32px !important;
+} */
+
+/*fix7. pinboard card/action-menu */
+/* .bk-pinboard-card .bk-pb-card-action-menu {
+  padding-top: 32px !important;
+  padding-right: 32px !important;
+} */
+
+/*fix8. description padding :- breaking changes (shrink chart size)*/
+.bk-pinboard-data-viz .bk-pinboard-viz-header .bk-description {
+    padding-top: 16px !important;
+}
+
+/*fix.9 Metric font specification wrong*/
+.headline-viz-module__aggregationValue {
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    line-height: 24px !important;
+    letter-spacing: 0px !important;
+    color: var(--primary-main-purple-500) !important;
+}
+
+.bk-dialog-container rd-icon:not(.bk-input-icon)+input,
+.bk-dialog-container textarea,
+.bk-dialog .bk-dialog-field input,
+.bk-range-select>.bk-range-select-row>input,
+.bk-select-head,
+.bk-share-principal .bk-search-select .bk-multiple-select .select2-input {
+    background: none !important;
+    border-radius: 4px !important;
+    border: 1px solid var(--on-border-grey-300) !important;
+    color: var(--on-background-light-placeholder-grey-400) !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    min-height: 40px !important;
+    padding: 8px 12px 8px 12px !important;
+    transition-property: background-color,
+        border-color,
+        color,
+        fill,
+        stroke,
+        opacity,
+        box-shadow,
+        transform;
+    ;
+    transition-duration: 200ms;
+}
+
+.bk-dialog-container rd-icon:not(.bk-input-icon)+input:hover,
+.bk-dialog-container textarea:hover,
+.bk-dialog .bk-dialog-field input:hover,
+.bk-range-select>.bk-range-select-row>input:hover,
+[data-radiant-v2] .input-base-module__container:hover,
+.bk-input-container-inner:hover,
+.bk-select-head:hover,
+
+.bk-share-principal .bk-search-select .bk-multiple-select .select2-input:hover {
+    background: none !important;
+    border: 1px solid var(--primary-border-purple-300) !important;
+}
+
+.bk-dialog-container rd-icon:not(.bk-input-icon)+input:focus,
+.bk-dialog-container textarea:focus,
+.bk-dialog .bk-dialog-field input:focus,
+.bk-range-select>.bk-range-select-row>input:focus,
+[data-radiant-v2] .input-base-module__container:focus,
+.bk-input-container-inner:focus,
+.bk-select-head:focus,
+
+.bk-share-principal .bk-search-select .bk-multiple-select .select2-input:focus {
+    box-shadow: 0 0 0 3px var(--on-shadow-focus) !important;
+    border-color: var(--on-form-focusborder) !important;
+}
+
+.bk-dialog-container rd-icon:not(.bk-input-icon)+input:active,
+.bk-dialog-container textarea:active,
+.bk-dialog .bk-dialog-field input:active,
+.bk-range-select>.bk-range-select-row>input:active,
+[data-radiant-v2] .input-base-module__container:active,
+.bk-input-container-inner:active,
+.bk-select-head:active,
+
+.bk-share-principal .bk-search-select .bk-multiple-select .select2-input:active {
+    border: 1px solid var(--primary-main-purple-500) !important;
+    box-shadow: 0px 0px 0px 3px #C3B9F9 !important;
+    color: var(--on-background-light-placeholder-grey-400) !important;
+    font-style: normal !important;
+}
+
+/* add pinboard dialog hide extra outline in text area*/
+.bk-dialog-field>textarea:focus-visible {
+    outline: none !important;
+}
+
+/* Tab
+.bk-category- for pinboard tab
+rd-tab-header-item for data tab
+*/
+
+/* non active tab text */
+.bk-category->span,
+.rd-tab-header-item>a>span {
+    color: var(--light-secondary) !important;
+}
+
+/* active tab text */
+.bk-category-.bk-selected>span,
+.rd-tab-header-item-selected>a>span {
+    color: var(--primary-main-purple-500) !important;
+}
+
+/* active tab bottom border */
+.top-list-filters .bk-filter-item .bk-top-menu-filters li.bk-selected::after,
+.rd-tab-header-item-selected>a::after {
+    background-color: var(--primary-main-purple-500) !important;
+}
+
+.rd-tab .rd-tab-header-item:after {
+    background-color: var(--primary-main-purple-500) !important;
+}
+
+/* rangle select (add filter inside pinboard) */
+.bk-range-select .chosen-single>span {
+    padding-top: 6px !important;
+}
+
+/* dropdown inside pinboard */
+.bk-operator-selector-wrapper>bk-select>.bk-select>.bk-select-head,
+.bk-range-select .chosen-single {
+    height: 40px !important;
+    border-radius: 6px !important;
+}
+
+/* pinboard add filter popup input */
+.bk-range-select>.bk-range-select-row>input {
+    border-radius: 6px !important;
+    border: 1px solid var(--on-border-grey-300) !important;
+    background: none !important;
+    margin-left: 5px !important;
+    color: var(--on-background-light-placeholder-grey-400) !important;
+}
+
+/* fix Text box height should be equal to height of the drop down */
+.bk-operator-selector-wrapper>bk-select>.bk-select>.bk-select-head {
+    height: 32px !important;
+}
+
+/* fix Padding between drop down and button should be 8 px */
+.pin-button-module__dualIntentSecondaryButton {
+    padding-right: 8px !important;
+}
+
+/* fix Padding should be 8 px between the buttons. Height of the both button should be same */
+.button-module__buttonWrapper.modal-module__actionBtn button[aria-label='Save answer'] {
+    height: 34px !important;
+}
+
+/* fix Padding should be 8 px between the buttons. Height of the both button should be same */
+.modal-module__footer .modal-module__actionBtn {
+    margin-left: 8px !important;
+}
+
+/* table inside checkbox
+ .bk-checkbox-container .bk-checkbox:checked+.bk-checkbox-label::before {
+ add here checkbox style...
+} */
+
+/*fix pinboard top padding 50 => 16px */
+.sharable-item-panel {
+    padding-top: 16px !important;
+}
+
+.bk-edit-button {
+    margin-left: 0.5em;
+}
+
+#pinboardId>div>blink-sharable-item>div>div.bk-sharable-item-inner>div>div>div.bk-sharable-item-content-container.bk-layout-editable>div>div>div.ribbon-item.ng-scope>div>div.bk-pinboard-ribbon-switch>div.bk-pinboard-ribbon-default.ng-scope>div>bk-filter-panel>div>rd-icon>svg {
+    fill: var(--primary-main-purple-500) !important;
+}
+
+/* modal wrapper */
+.bk-dialog-container .bk-dialog .modal-wrapper,
+.bk-dialog-container .bk-dialog .modal-header,
+.bk-dialog-container .bk-dialog {
+    border-radius: 8px !important;
+}
+
+/* filter tags */
+
+.bk-suggestion-category-container .bk-suggestion-category-followup-container .rd-chip-text {
+    display: inline-flex !important;
+    vertical-align: top !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    max-width: 100% !important;
+    font-weight: var(--fontWeights-medium) !important;
+    line-height: 1.2 !important;
+    outline: transparent solid 2px !important;
+    outline-offset: 2px !important;
+    border-width: 1px !important;
+    border-color: var(--on-border-grey-300) !important;
+    min-height: 1.5rem !important;
+    min-width: 1.5rem !important;
+    font-size: var(--fontSizes-sm) !important;
+    border-radius: var(--radii-md) !important;
+    gap: var(--space-spaceSm) !important;
+    background: var(--on-background-light-active-grey-200) !important;
+    color: var(--on-background-light-helper-grey-600) !important;
+    flex-shrink: 0 !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    padding: 4px 8px !important;
+    border: 1px solid var(--on-border-grey-300);
+}
+
+.datepicker {
+    padding: var(--space-spaceMd) !important;
+}
+
+.datepicker td {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.table-condensed thead>tr>th {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+/* calendar day */
+.datepicker table tr td.day,
+.datepicker table tr td span {
+    color: var(--on-background-light-helper-grey-600) !important;
+}
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td span:hover {
+    background-color: var(--background-light-hover) !important;
+    color: var(--on-background-light-main-grey-900) !important;
+}
+
+/* calendar active day */
+.datepicker table tr td.active,
+.datepicker table tr td span.active.active {
+    color: white !important;
+    background: var(--primary-main-purple-500) !important;
+}
+
+.datepicker table tr td.active:hover,
+.datepicker table tr td span.active.active:hover {
+    background: var(--primary-hover-purple-600) !important;
+    color: white !important;
+}
+
+
+/* powered by thoughtspot */
+.bk-embed .bk-embed-powered-by-ts-ribbon {
+    display: none !important;
+}
+
+/* calendar months and years */
+.datepicker table tr td span {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+/* multiple select (on share) */
+.select2-container-multi.select2-container-active .select2-choices {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.select2-dropdown-open .select2-drop-active {
+    margin-top: 0px !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-field {
+    padding: 3px !important;
+}
+
+.select2-container-multi .select2-choices {
+    border: none !important;
+    background: none !important;
+}
+
+.select2-drop {
+    width: 98.3% !important;
+    left: 0.5% !important;
+}
+
+/* checkbox */
+
+.bk-checkbox-container .bk-checkbox:checked+.bk-checkbox-label::before {
+    background: none !important;
+    color: white !important;
+    display: grid;
+    place-content: center;
+    font-size: 17px !important;
+    content: "✓" !important;
+    height: 17px !important;
+    background: var(--primary-main-purple-500) !important;
+    border-color: var(--primary-main-purple-500) !important;
+    color: white !important;
+}
+
+.bk-checkbox-container .bk-checkbox:focus+.bk-checkbox-label::before {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+/* caret down (button pointing up/down), present on share liveboard */
+.rd-button-icon-caret-down,
+.rd-button-icon-caret-down:hover {
+    border: none !important;
+    background: none !important;
+}
+
+/* Insights */
+.avatar-module__avatar {
+    display: none !important;
+}
+
+/* test custom search */
+.sage-search-bar-module__sageSearchBar {
+    background-color: red !important;
+}
