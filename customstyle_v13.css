@@ -71,9 +71,9 @@
    --ts-var-button--secondary--hover-background: var(--background-light-hover);
 
    /* tertiary */
-   --ts-var-button--tertiary-color: white;
-   --ts-var-button--tertiary-background: #5234ED;
-   --ts-var-button--tertiary--hover-background: #3513DB;
+   --ts-var-button--tertiary-color: var(--primary-main-purple-500);
+   --ts-var-button--tertiary-background: var(--grey-p9-color);
+   --ts-var-button--tertiary--hover-background: var(--background-light-hover);
 }
 
 /* Font-family */
