@@ -176,14 +176,9 @@ bk-axis-sort-icon : pinboard up/down arrow
 .rd-button-primary,
 .bk-button-primary,
 .button-module__primary {
-  font-weight: 800 !important;
-  background: linear-gradient(
-    144.82deg,
-    #0072c2 5.58%,
-    #1792e5 93.38%
-  ) !important;
+  background: var(--ts-var-button--primary-background) !important;
   border-radius: 4px !important;
-  color: var(--grey-p9-color) !important;
+  color: var(--ts-var-button--primary-color) !important;
   border: none !important;
 }
 
@@ -201,11 +196,16 @@ bk-axis-sort-icon : pinboard up/down arrow
   border: 1px solid transparent !important;
 }
 
+/* primary button text (p) */
+.button-module__backgroundLight.button-module__primary .button-module__buttonText {
+  color: var(--ts-var-button--primary-color) !important;
+}
+
 .rd-button-primary:hover,
 .bk-button-primary:hover,
 .button-module__primary:hover,
 .bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary:hover {
-  background: var(--btn-gradients-light-hover-color) !important;
+  background: var(--ts-var-button--primary--hover-background) !important;
 }
 
 .rd-button-primary:active,
