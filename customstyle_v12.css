@@ -71,9 +71,9 @@
    --ts-var-button--secondary--hover-background: var(--background-light-hover);
 
    /* tertiary */
-   /* --ts-var-button--tertiary-color: white;
+   --ts-var-button--tertiary-color: white;
    --ts-var-button--tertiary-background: #5234ED;
-   --ts-var-button--tertiary--hover-background: #3513DB; */
+   --ts-var-button--tertiary--hover-background: #3513DB;
 }
 
 /* Font-family */
@@ -212,7 +212,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 .bk-button-primary:active,
 .button-module__primary:active,
 .bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary:active {
-  background: var(--blue-n1-color) !important;
+  background: var(--ts-var-button--primary--hover-background) !important;
 }
 
 .rd-button-primary[disabled],
@@ -290,13 +290,6 @@ bk-axis-sort-icon : pinboard up/down arrow
   .rd-button-secondary
   .rd-button-text {
   color: var(--primary-main-purple-500) !important;
-}
-
-.modal-module__footer
-  .modal-module__actionBtn:hover
-  .button-module__secondary
-  > p {
-  color: var(--grey-p9-color) !important;
 }
 
 /* modal inside seconday button (border-color)  */
