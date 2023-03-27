@@ -173,6 +173,11 @@ button-module__primary/secondary: v2
 bk-axis-sort-icon : pinboard up/down arrow
 */
 
+/* Revenue and search spacing */
+.data-source-preview-module__dataSourcePreview {
+  margin-right: 8px !important;
+}
+
 .rd-button-primary,
 .bk-button-primary,
 .button-module__primary {
