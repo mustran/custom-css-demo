@@ -182,6 +182,16 @@ bk-axis-sort-icon : pinboard up/down arrow
   border: none !important;
 }
 
+/* Alert - show underliying data */
+.banner-alert-module__container .banner-alert-module__info .banner-alert-module__local .show-underlying-data-modal-module__aggregateColumnsInfoBanner .banner-alert-module__noCloseButton {
+  background-color: #F4F2FE !important;
+  border: none !important;
+}
+
+[data-radiant-v2].icon-module__blue {
+  fill: var(--ts-var-button--primary-background) !important
+}
+
 /*fix8: +Pinboard' should be primary button.*/
 .bk-create-new-pinboard .rd-button-wrapper .rd-button-secondary  {
   font-weight: 800 !important;
