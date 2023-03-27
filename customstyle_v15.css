@@ -183,7 +183,7 @@ bk-axis-sort-icon : pinboard up/down arrow
 }
 
 /* Alert - show underliying data */
-.banner-alert-module__container .banner-alert-module__info .banner-alert-module__local .show-underlying-data-modal-module__aggregateColumnsInfoBanner .banner-alert-module__noCloseButton {
+.banner-alert-module__container.banner-alert-module__local.banner-alert-module__noCloseButton {
   background-color: #F4F2FE !important;
   border: none !important;
 }
